@@ -1,18 +1,22 @@
-# Main Setup (Last Update: 26/03/25)
+# Chapter I (Last Update: 26/03/25)
 ## Guide to set up the base game for testing mods or just for fun.
 
 > [!WARNING]
 > This is a long step, make sure you followed carefully. A slight miss can lead to game crash/unstable.
 > Don't rush it, take your time.
 
-> [!CAUTION]
-> This guide is only for single player mode (offline).
-
 ### System Requirements
 - The same as listed from [CS1.6 Steam Page](https://store.steampowered.com/app/10/CounterStrike/)
 - Video card / graphics that supports DX11 and OpenGL 4.2+
 
 ### Setting up the base game.
+
+Choose between [build 3266] below or [Latest] version.
+
+## $\color{Cyan}{build\ 3266.}$
+
+> [!CAUTION]
+> This guide is only for single player mode (offline).
 
 1. Download and install this specific version of CS1.6 [here](https://archive.org/details/counter-strike-1.6_202106). ([Why?](#why-must-3266))
 2. Download and install ~~latest [MetahookSV](https://github.com/hzqst/MetaHookSv/releases/)~~, choose `blob` version.
