@@ -39,7 +39,7 @@ Metahook plugin installation is generally the same.
 6. Start the game and make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
 
 ### A. Client Precache (build 3266 only)
-Client Precache is a MetaHook Plugin to increase precache limit (you read me right). I'm not quite sure how it works since it's closed source. Unfortunately this plugin only designed specifically for build 3266. That's why I mention build 3266 in the first place and specific MetaHookSv version to be installed.
+Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin only designed specifically for build 3266. That's why I mention build 3266 in the first place and specific MetaHookSv version to be installed.
 
 1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file) then install as written on the guide above.
 2. Open `cstrike\delta.lst` with any text editor.
