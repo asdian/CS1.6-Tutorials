@@ -1,4 +1,4 @@
-# Chapter II - MetaHook
+# Chapter I: Section B - MetaHook
 ## Guide to install MetaHookSv and Its Third Party Plugins.
 
 > [!WARNING]

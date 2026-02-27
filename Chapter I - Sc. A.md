@@ -1,4 +1,4 @@
-# Chapter I - Base Game Setup
+# Chapter I: Section A - Base Game Setup
 
 ### System Requirements
 - The same as listed from [CS1.6 Steam Page](https://store.steampowered.com/app/10/CounterStrike/)
@@ -18,7 +18,7 @@ Choose between build 3266 or Latest version.
 3. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
 4. Steam version doesn't come with bot option by default. You have to install bot addon yourself.
 
-When you done, continue to [Chapter II](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20II.md).
+When you done, continue to [Section B](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20II.md).
 
 ### Installing Metadrawer [Optional]
 Optionally, you can install Metadrawer, a Metahook plugin to load images for UI enhancements into the game.
