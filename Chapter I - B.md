@@ -47,7 +47,7 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read me rig
 
 ### B. Metadrawer
 > [!CAUTION]
-> As of now (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash.
+> As of now (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with latest release of MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash. If you're using specific older MetaHookSv version from above (for build 3266), it still can run fine. No need to clear `plugins.lst` first.
 
 Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
 1. Download from [here](https://gamebanana.com/mods/39420).
@@ -59,3 +59,9 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 
 > [!TIP]
 > Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same functionality. But don't mix them unless you're know what you're doing.
+
+### C. MetaCCX
+My personal and first MetaHookSv which aimed to be complementary of my CCX plugin of AMX Mod X, which gives HUD enhancements mimicking CSO/CSN:S.
+
+1. ~~Download from [here] and install as written on the guide above~~ Soon!
+2. Extract the files.
