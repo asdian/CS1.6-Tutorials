@@ -51,7 +51,7 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read it rig
 
 Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
 
-0. Requires full AMX Mod X installation first.
+0. Requires full [AMX Mod X installation](Chapter%20I%20-%20C.md) first.
 1. Download from [here](https://gamebanana.com/mods/39420).
 2. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder.
 3. Install as written on the guide above.
