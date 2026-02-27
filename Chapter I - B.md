@@ -26,7 +26,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 
 ![List of installed Metahook Plugins.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_1.png)
 
-## $\color{Cyan}{[Third\ Party\ Plugins]}$ 
+## $\color{Cyan}{[Third\ Party\ Plugins}$ 
 
 ### General installation
 Metahook plugin installation is relatively the same.
@@ -45,6 +45,9 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read me rig
 3. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
 
 ### B. Metadrawer
+> [!CAUTION]
+> As of now (2026/02/27) any of these plugin is not compatible with MetaHookSv's first party plugin. You have to clear `plugins.lst` first. I'm not sure which plugin that causes the crash.
+
 Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
 1. Download from [here](https://gamebanana.com/mods/39420).
 2. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder.
