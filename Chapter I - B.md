@@ -14,8 +14,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 ### Installation Steps
 1. Download MetaHookSv from [here](https://github.com/hzqst/MetaHookSv/releases). 
 > [!CAUTION]
-> - For 3266 game build, use this specific version [here](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). $\color{Yellow}{[}$ $\color{RedOrange}{Important\ !}$ $\color{Yellow}{]}$ <ins>Choose blob.</ins> 
-> - If you wanna use this older MetaHookSv for the latest build, choose standard / non-blob version.
+> - For 3266 game build, <ins>choose blob.</ins> 
 
 2. Copy `cstrike_hd`, `echoes`, `gearbox`, `platform`, `Metahookexe` or `Metahook_blob.exe`, `SDL2.dll`, and `SDL3.dll` into your installed CS1.6 folder.
 3. Open `svencoop` folder and copy everything into `cstrike` folder.
@@ -40,6 +39,8 @@ Metahook plugin installation is generally the same.
 6. Start the game and make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
 
 ### A. Client Precache (build 3266 only)
+> [!CAUTION]
+> Latest MetaHookSv that supports this plugin is [this](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b) version.
 Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin only designed specifically for build 3266. That's why I mention build 3266 in the first place and specific MetaHookSv version to be installed.
 
 1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file) then install as written on the guide above.
