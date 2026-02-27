@@ -13,7 +13,7 @@ Metamod (often just called "Metamod") is a plugin loader / manager originally cr
 3. Inside `addons` folder, create new folder again and name it `metamod`.
 4. Place `metamod.dll` into `metamod` folder you just created.
 5. Back to `cstrike` folder, open `liblist.gam` with any text editor.
-6. Find `gamedll` entry, then change its string into `"addons\metamod\metamod.dll"` (with quote).
+6. Find `gamedll` entry, then change its string to `"addons\metamod\metamod.dll"` (with quote).
 7. Save and close.
 
 ## B. AMX Mod X
