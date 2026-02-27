@@ -14,17 +14,25 @@ Metamod (often just called "Metamod") is a plugin loader / manager originally cr
 4. Place `metamod.dll` into `metamod` folder you just created.
 5. Back to `cstrike` folder, open `liblist.gam` with any text editor.
 6. Find `gamedll` entry, then change its string into `"addons\metamod\metamod.dll"` (with quote).
+7. Save and close.
+
+## B. AMX Mod X
+AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administration framework designed as a Metamod plugin for Half-Life 1 (GoldSrc engine) games, most famously Counter-Strike 1.6. It lets server admins and developers create custom plugins to add features like admin commands (kick/ban/slay/reservations), voting systems, anti-flood, stats tracking, weapon restrictions, custom game modes, bots, and much more—without touching the core game files.
 
 ### Installation steps
 1. Go to this [website](https://www.amxmodx.org/downloads-new.php?branch=master&all=1).
-2. Click Windows icon, grab both `base` and `cstrike` package.
-2. Extract all the files into _`cstrike`_ folder.
-3. Start and run the game.
-4. Inside the game, press tilde `~` symbol on your keyboard, then type _`meta list`_ and _`amxx plugins`_. If the output shows as shown on this image below or similar (outputs something, not an unknown command), the package is successfully installed.
+2. Click Windows icon, download both `base` and `cstrike` package.
+3. Open `base` package, and extract `addons` folder into `cstrike` folder.
+4. Do the same with `cstrike` package.
+5. Go to `cstrike/addons/metamod` folder, open `plugins.ini` using text editor. Create one if doesn't exist.
+6. Write this entry: `win32   addons\amxmodx\dlls\amxmodx_mm.dll`
+7. Save and close.
+8. Start and run the game.
+9. Inside the game, press tilde `~` symbol on your keyboard, then type _`meta list`_ and _`amxx plugins`_. If the output shows as shown on this image below or similar (outputs something, not an unknown command), the package is successfully installed.
 
 ![Metamod installed plugin list.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_2.png)
 
-5. Make sure the game is stable first before continuing. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
+10. Make sure the game is stable. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
 
 ### How to Enable SyPB
 1. Open `cstrike/addons/metamod/plugins.ini`.
