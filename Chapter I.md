@@ -17,8 +17,9 @@ Choose between build 3266 or Latest version.
 1. Buy from Steam store [here](https://store.steampowered.com/app/10/CounterStrike/).
 2. Download and install to your desired folder
 3. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
+4. Steam version doesn't come with bot option by default. You have to install bot addon yourself.
 
-If you done, continue to [Chapter II](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20II.md).
+When you done, continue to [Chapter II](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20II.md).
 .
 6. Now download this Metahook plugin from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file).
 7. Find and copy the `.dll` file into `cstrike\metahook\plugins`.
