@@ -1,4 +1,4 @@
-# Chapter I (Last Update: 26/03/25)
+# Chapter I
 ## Guide to set up the base game for testing mods or just for fun.
 
 > [!WARNING]
@@ -13,12 +13,12 @@
 
 Choose between [build 3266] below or [Latest] version.
 
-## <strong> $\color{Cyan}{[Build\ 3266]}$ </strong>
+## $\color{Cyan}{[Build\ 3266]}$ 
 
 > [!CAUTION]
 > This guide is only for single player mode (offline).
 
-1. Download and install this specific version of CS1.6 [here](https://archive.org/details/counter-strike-1.6_202106). ([Why?](#why-must-3266))
+1. Download and install CS1.6 build 3266 [here](https://archive.org/details/counter-strike-1.6_202106). ([Why?](#why-must-3266))
 2. Download and install ~~latest [MetahookSV](https://github.com/hzqst/MetaHookSv/releases/)~~, choose `blob` version.
 ** Update: As of 19/03/2025, the latest MetahookSV that works with this guide is this [version](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b).
    - Copy `cstrike_hd`, `echoes`, `gearbox`, `platform`, `Metahook_blob.exe`, `SDL2.dll`, and `SDL3.dll` into your installed CS1.6 folder.
