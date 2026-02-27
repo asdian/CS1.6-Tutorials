@@ -6,7 +6,7 @@
 > Don't rush it, take your time.
 
 ### What is Metahook?
-Metahook is an addon for Goldsrc-based games to give extensive functionality (like ReHLDS and such). Unfortunately Metahook is for Windows only, which is have its specific requirements to be able to use for multiplayer (don't ask me how, I don't know either). Metahook is heavily dependant with newer OpenGL and DirectX version (correct me if I'm wrong, it's from my experience since I can't find the system requirement documentations for it).
+Metahook is an addon for Goldsrc-based games to give extensive functionality (like ReHLDS and such). It works by using a special launcher that renames itself to match the game's executable, such as cstrike.exe, then loads the real game while injecting its own DLL early in the process. This DLL hooks into the engine's core functions, like rendering and input, using techniques such as inline patches and virtual table replacements. Once hooked, MetaHook loads plugins from a folder as DLL files, allowing them to add features like custom HUDs, improved lighting, shaders, and modern graphics effects. Because of that, Metahook is heavily dependant with newer OpenGL and DirectX system, with moderate system specification (just to be safe). Unfortunately Metahook is for Windows only, which is have its specific requirements to be able to use for multiplayer (don't ask me how, I don't know either). 
 
 ### System Requirements
 - The same as listed from [CS1.6 Steam Page](https://store.steampowered.com/app/10/CounterStrike/)
