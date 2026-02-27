@@ -16,6 +16,6 @@ Choose between build 3266 or Latest version.
 1. Buy from Steam store [here](https://store.steampowered.com/app/10/CounterStrike/).
 2. Download and install to your desired folder
 3. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
-4. Steam version doesn't come with bot option by default. You have to install bot addon yourself.
+4. Steam version doesn't come with bot option by default. You have to install bot addon yourself or use from ReGameDLL (you'll find it later).
 
 When you done, continue to [MetaHook Installation](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20I%20-%20B.md) (optional) or [AMX Mod X installation](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20I%20-%20C.md).
