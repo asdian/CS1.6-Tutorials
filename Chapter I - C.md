@@ -27,7 +27,6 @@ AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administra
 5. Go to `cstrike/addons/metamod` folder, open `plugins.ini` using text editor. Create one if doesn't exist.
 6. Write this entry: `win32   addons\amxmodx\dlls\amxmodx_mm.dll`
 7. Save and close.
-8. Start and run the game.
 9. Inside the game, press tilde `~` symbol on your keyboard, then type _`meta list`_ and _`amxx plugins`_. If the output shows as shown on this image below or similar (outputs something, not an unknown command), the package is successfully installed.
 
 ![Metamod installed plugin list.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_2.png)
@@ -42,19 +41,14 @@ Read the details [here](https://github.com/rehlds/ReGameDLL_CS).
 2. Inside the .zip file, go to `bin\win32` folder then place `cstrike` folder into your CS1.6 directory.
 3. For latest game version, you can use its built-in bot (ZBot) [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-zbot-for-cs-16) or CS:CZ Hostage AI [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-cscz-hostage-ai-for-cs-16)
 
-### How to Enable SyPB
-1. Open `cstrike/addons/metamod/plugins.ini`.
-2. On _`;win32   addons\sypb\dlls\sypb.dll`_ line, delete the semicolon `;` and then save it. If that line doesn't exist just copy-paste it without the semicolon.
-3. Open `cstrike/addons/amxmodx/configs/modules.ini`.
-4. Find these two lines: _`;sypb`_ and _`;swnpc`_.
-5. Delete the semicolon `;` from them and then save it. If those lines doesn't exist just write them without the semicolon. _**Don't write them at the same line.**_
-6. On the game lobby, make sure to disable the built-in bot.
+## D. ReAPI
+From what I can understand, ReAPI is a bridging module between ReGameDLL and AMX Mod X. It lets modder/developer to use ReGame abilities from AMX Mod X.
 
-![Disable zbot.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_3.png)
+### Installation Steps.
+1. Download either [dev build](https://github.com/rehlds/ReAPI/actions) or [release build](https://github.com/rehlds/ReAPI/releases).
+2. Open the .zip, and place `addons` folder to your `cstrike` folder.
 
-7. Repeat the step 3 of [Setting up the base game.](https://github.com/asdian/CS1.6-Tuts/blob/main/CS1.6%20Base%20Game%20Tut.md#setting-up-the-base-game).
+***
+Now, run the game again. Play for few minutes or hours. Change maps, change team, change class, to test everything. Check the game console (by pressing tilde `~` icon, below `esc` button), then type _`meta list`_ and _`amxx plugins`_. If the output shows as shown on this image below or similar (outputs something, not an unknown command), the AMX Mod X and complimentary addons are successfully installed.
 
-> Congratulations!
-> -
-> Now you have a working base game to start modding. You don't have to worry with 512 precache limit again thanks to that Metahook plugin. It increases the precache to around 1024.
----
+![Metamod installed plugin list.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_2.png)
