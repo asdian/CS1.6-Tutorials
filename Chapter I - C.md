@@ -27,11 +27,6 @@ AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administra
 5. Go to `cstrike/addons/metamod` folder, open `plugins.ini` using text editor. Create one if doesn't exist.
 6. Write this entry: `win32   addons\amxmodx\dlls\amxmodx_mm.dll`
 7. Save and close.
-9. Inside the game, press tilde `~` symbol on your keyboard, then type _`meta list`_ and _`amxx plugins`_. If the output shows as shown on this image below or similar (outputs something, not an unknown command), the package is successfully installed.
-
-![Metamod installed plugin list.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_2.png)
-
-10. Make sure the game is stable. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
 
 ## C. ReGameDLL
 Read the details [here](https://github.com/rehlds/ReGameDLL_CS).
