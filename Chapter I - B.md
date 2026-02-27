@@ -21,7 +21,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 4. Back to your installed CS1.6 folder, rename the original `cstrike.exe` to something else if exist (as a backup).
 5. Rename <ins>`Metahook.exe`(latest CS)</ins> or <ins>`Metahook_blob.exe`(for 3266)</ins> to `cstrike.exe`
 6. Go to `cstrike\metahook\configs` folder, delete `plugins_svencoop.lst` and rename `plugins_goldsrc.lst` to `plugins.lst`.
-7. Run and play your CS1.6 from `cstrike.exe`, play with built-in/addon bots, make sure eveything runs fine, no crash. If you're facing crashes and other, might be your installment/system issue.
+7. Run and play your CS1.6 from `cstrike.exe`, play with built-in/addon bots if any, make sure eveything runs fine, no crash. If you're facing crashes and other, might be your installment/system issue.
 8. Inside the game, press tilde `~` symbol on your keyboard, then type _`mh_pluginlist`_. If the output shows as shown on this image below, the Metahook is successfully installed.
 
 ![List of installed Metahook Plugins.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_1.png)
