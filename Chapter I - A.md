@@ -18,4 +18,4 @@ Choose between build 3266 or Latest version.
 3. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
 4. Steam version doesn't come with bot option by default. You have to install bot addon yourself or use from ReGameDLL (you'll find it later).
 
-When you done, continue to [MetaHook Installation](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20I%20-%20B.md) (optional) or [AMX Mod X installation](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20I%20-%20C.md).
+When you done, continue to [MetaHook Installation](Chapter%20I%20-%20B.md) (optional) or [AMX Mod X installation](Chapter%20I%20-%20C.md).
