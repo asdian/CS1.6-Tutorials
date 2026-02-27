@@ -50,7 +50,7 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read it rig
 > As of now (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with latest release of MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash. If you're using specific older MetaHookSv version from above (for build 3266), it still can run fine. No need to clear `plugins.lst` first.
 
 Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
-0. Requires full AMX Mod X installation first.
+00. Requires full AMX Mod X installation first.
 1. Download from [here](https://gamebanana.com/mods/39420).
 2. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder.
 3. Install as written on the guide above.
