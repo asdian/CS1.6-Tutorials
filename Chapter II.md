@@ -12,7 +12,7 @@
 ### Installation Steps
 1. Download MetaHookSv from [here](https://github.com/hzqst/MetaHookSv/releases). 
 > [!CAUTION]
-> For 3266 game build, use this specific version [here](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b), <ins>and choose blob</ins>.
+> For 3266 game build, use this specific version [here](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). <ins>Choose blob. (Important!)</ins>
 
 2. Copy `cstrike_hd`, `echoes`, `gearbox`, `platform`, `Metahook_blob.exe`, `SDL2.dll`, and `SDL3.dll` into your installed CS1.6 folder.
 3. Open `svencoop` folder and copy everything into `cstrike` folder.
