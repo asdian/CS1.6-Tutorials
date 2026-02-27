@@ -1,9 +1,12 @@
-# Chapter II
+# Chapter II - MetaHook
 ## Guide to install MetaHookSv and Its Third Party Plugins.
 
 > [!WARNING]
 > This is a long step, make sure you followed carefully. A slight miss can lead to game crash/unstable.
 > Don't rush it, take your time.
+
+#### What is Metahook?
+> Metahook is an addon for Goldsrc-based games to give extensive functionality (like ReHLDS and such). Unfortunately Metahook is for Windows only, which is have its specific requirements to be able to use for multiplayer (don't ask me how, I don't know either). Metahook is heavily dependant with newer OpenGL and DirectX version (correct me if I'm wrong, it's from my experience since I can't find the system requirement documentations for it).
 
 ### System Requirements
 - The same as listed from [CS1.6 Steam Page](https://store.steampowered.com/app/10/CounterStrike/)

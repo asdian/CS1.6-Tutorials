@@ -23,10 +23,6 @@ Choose between [build 3266] below or [Latest] version.
 ** Update: As of 19/03/2025, the latest MetahookSV that works with this guide is this [version](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b).
    - 
 
-> [!NOTE]
-> #### What is Metahook?
-> Metahook is an addon for Goldsrc-based games to give extensive functionality (like ReHLDS and such). Unfortunately Metahook is for Windows only, which is have its specific requirements to be able to use for multiplayer (don't ask me how, I don't know either). Metahook is heavily dependant with newer OpenGL and DirectX version (correct me if I'm wrong, it's from my experience since I can't find the system requirement documentations for it).
-
 3. Run and play your CS1.6 from `cstrike.exe`, play with built-in bots, make sure eveything runs fine, no crash. If you're facing crashes and other, might be your installment/system issue.
 4. Inside the game, press tilde `~` symbol on your keyboard, then type _`mh_pluginlist`_. If the output shows as shown on this image below, the Metahook is successfully installed.
 
