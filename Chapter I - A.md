@@ -19,6 +19,3 @@ Choose between build 3266 or Latest version.
 4. Steam version doesn't come with bot option by default. You have to install bot addon yourself.
 
 When you done, continue to [MetaHook Installation](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20I%20-%20B.md) (optional) or [AMX Mod X installation](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20I%20-%20C.md).
-
-> That's all, you have successfully installed a CS1.6 complete with its addons for modding.
-> -
