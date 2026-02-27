@@ -1,5 +1,5 @@
 # Chapter I: Section B - MetaHook
-## $\color{Cyan}{Guide\ to\ install\ MetaHookSv\ and\ Its\ Third\ Party\ Plugins.}$ 
+## Guide to install MetaHookSv and Its Third Party Plugins.
 
 > [!WARNING]
 > This is a bit complicated step, make sure you followed carefully. A slight miss can lead to game crash/unstable.

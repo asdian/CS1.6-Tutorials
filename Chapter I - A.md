@@ -4,7 +4,7 @@
 - The same as listed from [CS1.6 Steam Page](https://store.steampowered.com/app/10/CounterStrike/)
 - Video card / graphics that supports DX11 and OpenGL 4.2+
 
-### Setting up the base game.
+### Setting up the base game
 Choose between build 3266 or Latest version.
 
 ## $\color{Cyan}{[Build\ 3266]}$ 
