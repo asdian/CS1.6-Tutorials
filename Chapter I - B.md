@@ -26,7 +26,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 
 ![List of installed Metahook Plugins.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_1.png)
 
-## $\color{Cyan}{[Third\ Party\ Plugins}$ 
+## $\color{Cyan}{[Third\ Party\ Plugins]}$ 
 The plugins listed here are the plugins I have tried and used.
 
 ### General installation
