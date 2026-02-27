@@ -1,8 +1,9 @@
 # Chapter I: Section C - AMX Mod X
-## Guide to install AMX Mod X
+## Guide to install AMX Mod X and Its Complementary Addons
 
 ### Installation steps
-1. Download this [package](https://github.com/asdian/CS1.6-Singleplayer-Setup/blob/main/AMX%20Mod%20X%20Starter%20Pack.rar). It contains ReGameDLL 5.26.0.668-dev, SyPB 1.50 (disabled by default), Metamod-P 1.21p38, Printcenter fix, and AMXModX 1.10.0.5467.
+1. Go to this [website](https://www.amxmodx.org/downloads-new.php?branch=master&all=1).
+2. Click Windows icon, grab both `base` and `cstrike` package.
 2. Extract all the files into _`cstrike`_ folder. ***If you're using aforementioned Metahook plugin, repeat step 8-11 above.**
 3. Start and run the game.
 4. Inside the game, press tilde `~` symbol on your keyboard, then type _`meta list`_ and _`amxx plugins`_. If the output shows as shown on this image below or similar (outputs something, not an unknown command), the package is successfully installed.
