@@ -25,7 +25,7 @@ AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administra
 3. Open `base` package, and extract `addons` folder into `cstrike` folder.
 4. Do the same with `cstrike` package.
 5. Go to `cstrike/addons/metamod` folder, open `plugins.ini` using text editor. Create one if doesn't exist.
-6. Write this entry: `win32   addons\amxmodx\dlls\amxmodx_mm.dll`
+6. Write this entry: `win32   addons\amxmodx\dlls\amxmodx_mm.dll`. If it's already there, then skip this step.
 7. Save and close.
 
 ## C. ReGameDLL
