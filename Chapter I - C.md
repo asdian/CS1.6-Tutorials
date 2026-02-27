@@ -11,6 +11,7 @@ There are two different methods.
 
 ## $\color{Cyan}{[Latest\ Build]}$
 1. Download Metamod-R from [here](https://github.com/rehlds/Metamod-R/releases)
+***
 
 2. Inside `cstrike` folder, create new folder and name it `addons`.
 3. Inside `addons` folder, create new folder again and name it `metamod`.
