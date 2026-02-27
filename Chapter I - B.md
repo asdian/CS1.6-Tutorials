@@ -27,7 +27,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 ![List of installed Metahook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-mh.png)
 
 ## $\color{Cyan}{[Third\ Party\ Plugins]}$ 
-The plugins listed here are the plugins I have tried and used. When you done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md). Some plugins requires AMX Mod X installation first.
+The plugins listed here are the plugins I have tried and used. When you have done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md). Some plugins requires AMX Mod X installation first.
 
 ### General installation
 Metahook plugin installation is generally the same.
