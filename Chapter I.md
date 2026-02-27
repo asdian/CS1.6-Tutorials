@@ -21,11 +21,7 @@ Choose between [build 3266] below or [Latest] version.
 1. Download and install CS1.6 build 3266 [here](https://archive.org/details/counter-strike-1.6_202106). ([Why?](#why-must-3266))
 2. Download and install ~~latest [MetahookSV](https://github.com/hzqst/MetaHookSv/releases/)~~, choose `blob` version.
 ** Update: As of 19/03/2025, the latest MetahookSV that works with this guide is this [version](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b).
-   - Copy `cstrike_hd`, `echoes`, `gearbox`, `platform`, `Metahook_blob.exe`, `SDL2.dll`, and `SDL3.dll` into your installed CS1.6 folder.
-   - Open `svencoop` folder and copy everything into `cstrike` folder.
-   - Back to your installed CS1.6 folder, rename the original `cstrike.exe` to something else if exist (as a backup).
-   - Rename `Metahook_blob.exe` to `cstrike.exe`
-   - Go to `cstrike\metahook\configs` folder, delete `plugins_svencoop.lst` and rename `plugins_goldsrc.lst` to `plugins.lst`.
+   - 
 
 > [!NOTE]
 > #### What is Metahook?
