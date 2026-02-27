@@ -28,14 +28,30 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 
 ## Third Party Plugins
 
-### A. Client Precache (build 3266 only)
-Client Precache is a MetaHook Plugin to increase precache limit (you read me right). I'm not quite sure how it works since it's closed source. Unfortunately this plugin only designed specifically for build 3266. That's why I mention build 3266 in the first place and specific MetaHookSv version to be installed.
-
-1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file).
+### General installation
+Metahook plugin installation is relatively the same.
+1. Download the plugin
 2. Find and copy the `.dll` file into `cstrike\metahook\plugins`.
 3. Open `cstrike\metahook\configs\plugins.lst` with any text editor.
 4. Write the `.dll` file name you just copied from the .rar (with the `.dll` text) on the very top of the list, then save it.
-5. Open `cstrike\delta.lst` with any text editor.
-6. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
-7. Repeat step 3-5. Make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
+5. Read any optional info/steps if there's any.
+6. Start the game and make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
 
+### A. Client Precache (build 3266 only)
+Client Precache is a MetaHook Plugin to increase precache limit (you read me right). I'm not quite sure how it works since it's closed source. Unfortunately this plugin only designed specifically for build 3266. That's why I mention build 3266 in the first place and specific MetaHookSv version to be installed.
+
+1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file) then install as written on the guide above.
+2. Open `cstrike\delta.lst` with any text editor.
+3. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
+
+### B. Metadrawer
+Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
+1. Download from [here](https://gamebanana.com/mods/39420).
+2. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder.
+3. Install as written on the guide above.
+5. Go to cstrike folder, create a file named _`userconfig.cfg`_ (a must, can't use random naming). Not a .txt file, make sure you have done that properly.
+6. Write this command: _`md_newmenu "0"`_ inside and save it.
+7. If you have AMX Mod X already installed, go to `cstrike\addons\amxmodx\configs` folder, open `modules.ini` with any text editor, write _`metadrawer`_ in it and save.
+
+> [!TIP]
+> Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same functionality. But don't mix them unless you're know what you're doing.
