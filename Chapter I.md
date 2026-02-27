@@ -18,13 +18,10 @@ Choose between [build 3266] below or [Latest] version.
 > [!CAUTION]
 > This guide is only for single player mode (offline).
 
-1. Download and install CS1.6 build 3266 [here](https://archive.org/details/counter-strike-1.6_202106). ([Why?](#why-must-3266))
-2. Download and install ~~latest [MetahookSV](https://github.com/hzqst/MetaHookSv/releases/)~~, choose `blob` version.
-** Update: As of 19/03/2025, the latest MetahookSV that works with this guide is this [version](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b).
-   - 
+1. Download CS1.6 build 3266 from [here](https://archive.org/details/counter-strike-1.6_202106). ([Why?](#why-must-3266))
+2. Install it to your desired folder
 
-3. Run and play your CS1.6 from `cstrike.exe`, play with built-in bots, make sure eveything runs fine, no crash. If you're facing crashes and other, might be your installment/system issue.
-4. Inside the game, press tilde `~` symbol on your keyboard, then type _`mh_pluginlist`_. If the output shows as shown on this image below, the Metahook is successfully installed.
+
 
 ![List of installed Metahook Plugins.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_1.png)
 
