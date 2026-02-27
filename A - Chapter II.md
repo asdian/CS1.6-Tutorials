@@ -28,8 +28,8 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 
 ## Third Party Plugins
 
-### A. Client Precache
-Client Precache is a MetaHook Plugin to increase precache limit (you heard me right). I'm not quite sure how it works since it's closed source.
+### A. Client Precache (build 3266 only)
+Client Precache is a MetaHook Plugin to increase precache limit (you read me right). I'm not quite sure how it works since it's closed source. Unfortunately this plugin only designed specifically for build 3266. That's why I mention build 3266 in the first place and specific MetaHookSv version to be installed.
 
 1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file).
 2. Find and copy the `.dll` file into `cstrike\metahook\plugins`.
@@ -38,3 +38,4 @@ Client Precache is a MetaHook Plugin to increase precache limit (you heard me ri
 5. Open `cstrike\delta.lst` with any text editor.
 6. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
 7. Repeat step 3-5. Make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
+

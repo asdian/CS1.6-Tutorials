@@ -1,5 +1,4 @@
-# Chapter I
-## Guide to set up the base game.
+# Chapter I - Base Game Setup
 
 ### System Requirements
 - The same as listed from [CS1.6 Steam Page](https://store.steampowered.com/app/10/CounterStrike/)
@@ -20,11 +19,6 @@ Choose between build 3266 or Latest version.
 4. Steam version doesn't come with bot option by default. You have to install bot addon yourself.
 
 When you done, continue to [Chapter II](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20II.md).
-
-<a name="why-must-3266"></a>
-> [!NOTE]
-> #### Why specific 3266 build is required?
-> The Metahook plugin we're going to use is to extend the precache limit (you read it right). But currently it only works with build 3266. That's why it requires build 3266, which is quite hard to find nowadays. Thanks to archive.org I can find one that easy to download and install without crappy files (clean). If you're not intended to use this Metahook plugin, you can use another or newer build and can follow this guide just fine, skipping step 6 and beyond.
 
 ### Installing Metadrawer [Optional]
 Optionally, you can install Metadrawer, a Metahook plugin to load images for UI enhancements into the game.
