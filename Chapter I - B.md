@@ -35,7 +35,7 @@ Metahook plugin installation is generally the same.
 2. Find and copy the `.dll` file into `cstrike\metahook\plugins`.
 3. Open `cstrike\metahook\configs\plugins.lst` with any text editor.
 4. Write the `.dll` file name you just copied from the .rar (with the `.dll` text) on the very top of the list, then save it.
-5. Read any optional info/steps if there's any.
+5. Read any additional info/steps if there's any.
 6. Start the game and make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
 
 ### A. Client Precache (build 3266 only)
