@@ -34,6 +34,14 @@ AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administra
 
 10. Make sure the game is stable. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
 
+## C. ReGameDLL
+Read the details [here](https://github.com/rehlds/ReGameDLL_CS).
+
+### Installation Steps
+1. Download either [Dev Build](https://github.com/rehlds/ReGameDLL_CS/actions/workflows/build.yml) or [Release Build](https://github.com/rehlds/ReGameDLL_CS/releases) (not both).
+2. Inside the .zip file, go to `bin\win32` folder then place `cstrike` folder into your CS1.6 directory.
+3. For latest game version, you can use its built-in bot (ZBot) [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-zbot-for-cs-16) or CS:CZ Hostage AI [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-cscz-hostage-ai-for-cs-16)
+
 ### How to Enable SyPB
 1. Open `cstrike/addons/metamod/plugins.ini`.
 2. On _`;win32   addons\sypb\dlls\sypb.dll`_ line, delete the semicolon `;` and then save it. If that line doesn't exist just copy-paste it without the semicolon.
