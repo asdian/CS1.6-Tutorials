@@ -6,14 +6,15 @@ Metamod (often just called "Metamod") is a plugin loader / manager originally cr
 
 ### Installation steps
 1. There are two differences. Choose one.
-> For build 3266, download Metamod-P from [here](https://github.com/Bots-United/metamod-p/releases)\
-> For latest build, download Metamod-R from [here](https://github.com/rehlds/Metamod-R/releases)
+> For build 3266, download Metamod-P from [here](https://github.com/Bots-United/metamod-p/releases).\
+> For latest build, download Metamod-R from [here](https://github.com/rehlds/Metamod-R/releases).
 
 2. Inside `cstrike` folder, create new folder and name it `addons`.
 3. Inside `addons` folder, create new folder again and name it `metamod`.
 4. Place `metamod.dll` into `metamod` folder you just created.
+5. Back to `cstrike` folder, open `liblist.gam` with any text editor.
+6. Find `gamedll` entry, then change its string into `"addons\metamod\metamod.dll"` (with quote).
 
-2. Open the downloaded files with WinRAR then put `metamod.dll`
 ### Installation steps
 1. Go to this [website](https://www.amxmodx.org/downloads-new.php?branch=master&all=1).
 2. Click Windows icon, grab both `base` and `cstrike` package.
