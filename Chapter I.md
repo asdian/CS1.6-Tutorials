@@ -13,7 +13,7 @@
 
 Choose between [build 3266] below or [Latest] version.
 
-## **$\color{Cyan}{[Build\ 3266]}$**
+## <strong> $\color{Cyan}{[Build\ 3266]}$ </strong>
 
 > [!CAUTION]
 > This guide is only for single player mode (offline).
