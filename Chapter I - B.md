@@ -27,7 +27,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 ![List of installed Metahook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-mh.png)
 
 ## $\color{Cyan}{[Third\ Party\ Plugins]}$ 
-The plugins listed here are the plugins I have tried and used. When you done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md).
+The plugins listed here are the plugins I have tried and used. When you done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md). Some plugins requires AMX Mod X installation first.
 
 ### General installation
 Metahook plugin installation is generally the same.
@@ -50,12 +50,13 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read it rig
 > As of now (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with latest release of MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash. If you're using specific older MetaHookSv version from above (for build 3266), it still can run fine. No need to clear `plugins.lst` first.
 
 Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
+0. Requires full AMX Mod X installation first.
 1. Download from [here](https://gamebanana.com/mods/39420).
 2. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder.
 3. Install as written on the guide above.
 5. Go to cstrike folder, create a file named _`userconfig.cfg`_ (a must, can't use random naming). Not a .txt file, make sure you have done that properly.
 6. Write this command: _`md_newmenu "0"`_ inside and save it.
-7. If you have AMX Mod X already installed, go to `cstrike\addons\amxmodx\configs` folder, open `modules.ini` with any text editor, write _`metadrawer`_ in it and save.
+
 
 > [!TIP]
 > Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same functionality. But don't mix them unless you're know what you're doing.
