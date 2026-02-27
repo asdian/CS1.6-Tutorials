@@ -53,7 +53,7 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 
 0. Requires full [AMX Mod X installation](Chapter%20I%20-%20C.md) first.
 1. Download from [here](https://gamebanana.com/mods/39420).
-2. Backup your `cstrike\metahook\configs\plugins.lst` first (just in case).
+2. Backup your `cstrike\metahook\configs\plugins.lst` (just in case).
 3. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder. $\color{Red}{**}$ Metadrawer package will replace `plugins.lst` with its own file if you place the entire `cstrike` folder, unless you want to do it manually.
 4. Restore your `cstrike\metahook\configs\plugins.lst`.
 5. Install as written on the guide above. 
