@@ -47,7 +47,7 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read it rig
 
 ### B. Metadrawer
 > [!CAUTION]
-> As of now (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with latest release of MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash. If you're using specific older MetaHookSv version from above (for build 3266), it still can run fine. No need to clear `plugins.lst` first.
+> As of now (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with latest release of MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash. If you're using that specific older MetaHookSv version from earlier, it still can run fine. No need to clear `plugins.lst` first.
 
 Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
 
