@@ -6,7 +6,7 @@ Metamod (often just called "Metamod") is a plugin loader / manager originally cr
 
 ### Installation steps
 1. There are two differences. Choose one.
-> For build 3266, download Metamod-P from [here](https://github.com/Bots-United/metamod-p/releases)
+> For build 3266, download Metamod-P from [here](https://github.com/Bots-United/metamod-p/releases)\
 > For latest build, download Metamod-R from [here](https://github.com/rehlds/Metamod-R/releases)
 
 2. Inside `cstrike` folder, create new folder and name it `addons`.
