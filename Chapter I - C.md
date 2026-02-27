@@ -1,10 +1,16 @@
 # Chapter I: Section C - AMX Mod X
 ## Guide to install AMX Mod X and Its Complementary Addons
 
+## A. Metamod
+Metamod (often just called "Metamod") is a plugin loader / manager originally created for games using the GoldSrc engine (like Half-Life 1 and Counter-Strike 1.6). It acts as a middleware layer that sits between the game engine and the actual game mod (the game DLL), allowing server owners to dynamically load and unload additional plugin DLLs without modifying the core game files. This made it possible to add custom server features, admin tools, anti-cheat systems, bots, fun commands, statistics, etc.
+
+### Installation steps
+1. 
+
 ### Installation steps
 1. Go to this [website](https://www.amxmodx.org/downloads-new.php?branch=master&all=1).
 2. Click Windows icon, grab both `base` and `cstrike` package.
-2. Extract all the files into _`cstrike`_ folder. ***If you're using aforementioned Metahook plugin, repeat step 8-11 above.**
+2. Extract all the files into _`cstrike`_ folder.
 3. Start and run the game.
 4. Inside the game, press tilde `~` symbol on your keyboard, then type _`meta list`_ and _`amxx plugins`_. If the output shows as shown on this image below or similar (outputs something, not an unknown command), the package is successfully installed.
 
