@@ -20,14 +20,6 @@ Choose between build 3266 or Latest version.
 4. Steam version doesn't come with bot option by default. You have to install bot addon yourself.
 
 When you done, continue to [Chapter II](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20II.md).
-.
-6. Now download this Metahook plugin from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file).
-7. Find and copy the `.dll` file into `cstrike\metahook\plugins`.
-8. Open `cstrike\metahook\configs\plugins.lst` with any text editor.
-9. Write the `.dll` file name you just copied from the .rar (with the `.dll` text) and save it.
-10. Open `cstrike\delta.lst` with any text editor.
-11. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
-12. Repeat step 3-5. Make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
 
 <a name="why-must-3266"></a>
 > [!NOTE]

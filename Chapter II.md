@@ -2,7 +2,7 @@
 ## Guide to install MetaHookSv and Its Third Party Plugins.
 
 > [!WARNING]
-> This is a complicated step, make sure you followed carefully. A slight miss can lead to game crash/unstable.
+> This is a bit complicated step, make sure you followed carefully. A slight miss can lead to game crash/unstable.
 > Don't rush it, take your time.
 
 ### What is Metahook?
@@ -25,3 +25,16 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 8. Inside the game, press tilde `~` symbol on your keyboard, then type _`mh_pluginlist`_. If the output shows as shown on this image below, the Metahook is successfully installed.
 
 ![List of installed Metahook Plugins.](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/BaseGame/Screenshot_1.png)
+
+## Third Party Plugins
+
+### A. Client Precache
+Client Precache is a MetaHook Plugin to increase precache limit (you heard me right). I'm not quite sure how it works since it's closed source.
+
+1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file).
+2. Find and copy the `.dll` file into `cstrike\metahook\plugins`.
+3. Open `cstrike\metahook\configs\plugins.lst` with any text editor.
+4. Write the `.dll` file name you just copied from the .rar (with the `.dll` text) on the very top of the list, then save it.
+5. Open `cstrike\delta.lst` with any text editor.
+6. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
+7. Repeat step 3-5. Make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
