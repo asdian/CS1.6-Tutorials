@@ -5,13 +5,9 @@
 Metamod (often just called "Metamod") is a plugin loader / manager originally created for games using the GoldSrc engine (like Half-Life 1 and Counter-Strike 1.6). It acts as a middleware layer that sits between the game engine and the actual game mod (the game DLL), allowing server owners to dynamically load and unload additional plugin DLLs without modifying the core game files. This made it possible to add custom server features, admin tools, anti-cheat systems, bots, fun commands, statistics, etc.
 
 ### Installation steps
-There are two different methods.
-## $\color{Cyan}{[Build\ 3266]}$ 
-1. Download Metamod-P from [here](https://github.com/Bots-United/metamod-p/releases)
-
-## $\color{Cyan}{[Latest\ Build]}$
-1. Download Metamod-R from [here](https://github.com/rehlds/Metamod-R/releases)
-***
+1. There are two differences. Choose one.
+> For build 3266, download Metamod-P from [here](https://github.com/Bots-United/metamod-p/releases)
+> For latest build, download Metamod-R from [here](https://github.com/rehlds/Metamod-R/releases)
 
 2. Inside `cstrike` folder, create new folder and name it `addons`.
 3. Inside `addons` folder, create new folder again and name it `metamod`.
