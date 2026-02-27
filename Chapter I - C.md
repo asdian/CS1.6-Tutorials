@@ -44,10 +44,10 @@ From what I can understand, ReAPI is a bridging module between ReGameDLL and AMX
 2. Open the .zip, and place `addons` folder to your `cstrike` folder.
 
 ***
-Now, run the game again. Play for few minutes or hours. Change maps, change team, change class, to test everything. Check the game console (by pressing tilde `~` icon, below `esc` button). If you can find any text contains `Metamod-r`/`Metamod-p` (for 3266 build) and `ReGameDLL`, it means they have been successfully installed.
+Now, run the game again. Play for few minutes or hours. Change maps, change team, change class, to test everything. Check the game console (by pressing tilde `~` icon, below `esc` button). If the output shows Metamod-r or Metamod-p (for build 3266) and ReGameDLL, then they have been successfully installed.
 
 ![Installation status.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-1.png)
 
-Next, type _`meta list`_ and _`amxx plugins`_. If the output shows as shown on this image below or similar (outputs something, not an unknown command), the AMX Mod X and its complimentary addons are successfully installed.
+Next, type _`meta list`_ and _`amxx plugins`_. If the output matches what's shown in the image below (or something similar, i.e., it outputs actual information instead of an 'unknown command' error), then AMX Mod X and its complementary addons are successfully installed.
 
 ![Metamod installation status.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-2.png)
