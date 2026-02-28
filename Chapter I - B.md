@@ -38,7 +38,7 @@ Metahook plugin installation is generally the same.
 5. Read any additional info/steps if there's any.
 6. Start the game and make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
 
-#### $\color{Cyan}{A.\ Client\ Precache\ (build\ 3266\ only)}$
+### $\color{Cyan}{A.\ Client\ Precache\ (build\ 3266\ only)}$
 > [!CAUTION]
 > The latest MetaHookSv version that supports this plugin is [v20250225b](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). If you have already installed a newer version, please roll back to v20250225b.
 
@@ -48,7 +48,7 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read it rig
 2. Open `cstrike\delta.lst` with any text editor.
 3. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
 
-#### B. Metadrawer
+### $\color{Cyan}{B.\ Metadrawer}$
 > [!CAUTION]
 > As of now (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with latest release of MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash. If you're using v20250225b version, it still can run fine. No need to clear `plugins.lst` first.
 
