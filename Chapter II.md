@@ -27,7 +27,7 @@ The easy method is using AMX Mod X Studio. A lightweight software for AMX Mod X 
 3. Open `AMXX_Studio.exe`.
 4. Go to `Tools` -> `Settings`.
 ![AMXX Studio 1](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/AMXStudio/Screenshot_2.png)
-5. Go to `Compiler` menu, and apply the corresponding `amxxpc.exe` and `compile.exe` from your directory / the step 2.
+5. Go to `Compiler` menu, and apply the corresponding `amxxpc.exe` and `compile.exe` from your directory.
 ![AMXX Studio 2](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/AMXStudio/Screenshot_3.png)
 6. Press `OK` and you're good to go. Easy right?
 
@@ -44,7 +44,7 @@ The advanced method is using Visual Studio Code. A modern software for advanced 
 5. Edit your working folders and files as needed.
 ![AMXX VSCode4](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/VSCode/Screenshot_4.png)
 > [!IMPORTANT]
-> The syntax must be correct to be able to find your files.
+> The syntax must be correct to be able to find your files/folders.
 6. Then save it or press `CTRL + S` and you're good to go.
 
 ## What is the difference?
@@ -52,6 +52,6 @@ So far, I only can tell few differences that's significantly affects experience.
 
 For easy and short scripts, AMX Mod X Studio is <ins>better</ins> because it can show dropdown of function suggestions from the loaded include (`.inc`) files, while VSCode **only** shows suggestion from what are inside the currently opened script file. However, when your scripts has 1500+ line long, VSCode is better because AMX Mod X Studio will lag. AMX Mod X Studio also haven't been updated in a long time. So, expect issues in modern systems.
 
-## $\color{BlueGreen}{Where\ to\ Start?}$
+## $\color{BlueGreen}{Start\ Scripting}$
 Refer to this [link](https://forums.alliedmods.net/showthread.php?t=172936). There's already a ton of AMX Mod X scripting Tutorials, Guides, Snippets, and References. Good luck!
 
