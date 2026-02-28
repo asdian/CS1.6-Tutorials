@@ -78,13 +78,13 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 My personal and first MetaHookSv which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S. It's still in beta phase, please report for bug(s) if you found any.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
-1. Download from [here]
+1. Download from [here].
 2. Extract the files.
 3. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
 4. Open `cstrike/sprites/hud.txt`.
 5. At the very top, change the number into a larger and reasonable number. (e.g. `512`)
 6. Find any `buyzone` entry.
-7. Replace `640hud7` value to `null`
+7. Replace `640hud7` value to `null`.
 8. Add these entries:
 ```text
 //Hud_ingame(HUD       )
