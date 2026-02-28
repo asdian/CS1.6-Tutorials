@@ -37,7 +37,7 @@ Read the details [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-fil
 3. For latest game version, you can use its built-in bot (ZBot) [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-zbot-for-cs-16) or CS:CZ Hostage AI [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-cscz-hostage-ai-for-cs-16)
 
 ## $\color{BlueGreen}{ReAPI}$
-From what I can understand, ReAPI is a bridging module between ReGameDLL and AMX Mod X. It lets modder/developer to use ReGame abilities from AMX Mod X.
+From what I can understand, ReAPI is a bridging module between ReGameDLL and AMX Mod X. It lets modder/developer to use ReGameDLL functions from AMX Mod X.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
 1. Download either [dev build](https://github.com/rehlds/ReAPI/actions) or [release build](https://github.com/rehlds/ReAPI/releases).
