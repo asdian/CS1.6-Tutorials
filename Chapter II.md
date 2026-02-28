@@ -3,8 +3,8 @@ Below is tutorials of setting up workspace for AMX Mod X scripting.
 
 > [!NOTE]
 > [About AMX Mod X](https://www.amxmodx.org/about.php)
-> 
-> A RAW file (uncompiled) before `.amxx` is in `.sma` file. We need a software to properly create or modify and then compile it into an `.amxx`.
+
+A RAW file (uncompiled) before `.amxx` is in `.sma` file. We need a software to properly create or modify and then compile it into an `.amxx`.
 
 ## $\color{BlueGreen}{Main\ setup}$
 #### $\color{GreenYellow}{Working\ folder}$
