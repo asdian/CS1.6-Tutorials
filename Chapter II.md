@@ -21,7 +21,7 @@ There are two softwares that I use for AMX Mod X scripting.
 #### $\color{GreenYellow}{Easy\ Method}$
 > [Take me to Advanced method](#colorcyanadvanced-method)$\color{GreenYellow}{}$
 
-The easy way is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
+The easy method is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
 
 1. Download the AMX Mod X Studio from [here](https://sourceforge.net/projects/amxmodx/files/AMX%20Mod%20X%20Studio/1.4.3%20final/AMXX_Studio_1.4.3_final.zip/download). It's a portable software, you just have to extract it.
 2. Place it somewhere. `Example: D:/Projects/CS1.6/AMX Studio/(here)`.
@@ -47,11 +47,11 @@ The advanced method is using Visual Studio Code. A modern software for advanced 
 ** The syntax must be correct to be able to find your files.
 6. Then save it or press `CTRL + S` and you're good to go.
 
-## What are the difference?
-So far, from what I can tell only few differences that's significantly affects experience.
+## What is the difference?
+So far, I only can tell few differences that's significantly affects experience.
 
-For easy and short scripts, AMX Mod X Studio is <ins>better</ins> because it can show dropdown of function suggestions from the loaded include (`.inc`) files, while VSCode **only** shows suggestion from what are inside the currently opened script file. However, when your scripts has 1500+ line long, VSCode is better because AMX Mod X Studio will lag.
+For easy and short scripts, AMX Mod X Studio is <ins>better</ins> because it can show dropdown of function suggestions from the loaded include (`.inc`) files, while VSCode **only** shows suggestion from what are inside the currently opened script file. However, when your scripts has 1500+ line long, VSCode is better because AMX Mod X Studio will lag. AMX Mod X Studio also haven't been updated in a long time. So, expect issues in modern systems.
 
-# Where to start scripting?
+## $\color{BlueGreen}{Where\ to\ Start?}$
 Refer to this [link](https://forums.alliedmods.net/showthread.php?t=172936). There's already a ton of AMX Mod X scripting Tutorials, Guides, Snippets, and References. Good luck!
 
