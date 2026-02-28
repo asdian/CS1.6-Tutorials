@@ -49,9 +49,10 @@ MetaHook plugin installation is generally the same.
 
 Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin is made ***only*** for build 3266. Since it's an old, closed-source plugin, people can't make updates for it. Hence, a specific MetaHookSv version and CS build is required.
 
-1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file) then install as written on the guide above.
-2. Open `cstrike\delta.lst` with any text editor.
-3. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
+1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file)
+2. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
+3. Open `cstrike\delta.lst` with any text editor.
+4. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
 
 ### $\color{ProcessBlue}{Metadrawer}$
 > [!CAUTION]
@@ -64,7 +65,7 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 2. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder. 
 > [!WARNING]
 > Metadrawer package will replace `plugins.lst` with its own file if you place the entire `cstrike` folder, unless you want to do it manually.
-3. Install as written on the guide above. 
+3. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
 4. Go to cstrike folder, create a file named _`userconfig.cfg`_ (a must, can't use random naming). Not a .txt file, make sure you have done that properly.
 5. Write this command: _`md_newmenu "0"`_ inside and save it.
 
@@ -74,5 +75,68 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 ### $\color{ProcessBlue}{MetaCCX}$
 My personal and first MetaHookSv which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S.
 
-1. ~~Download from [here] and install as written on the guide above~~ Soon!
+1. Download from [here]
 2. Extract the files.
+3. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
+4. Open `cstrike/sprites/hud.txt`.
+5. At the very top, change the number into a larger and reasonable number. (e.g. `512`)
+6. Find any `buyzone` entry.
+7. Replace `640hud7` value to `null`
+8. Add these entries:
+```text
+//Hud_ingame(HUD       )
+nightvision_off_new        	640 640hud8                  	171   120  32  24
+nightvision_on_new        	640 640hud8                  	203   120  32  24
+defuser_new	          	640 640hud8	       	179   0  24  24
+dollar_new	   	640 640hud8		36    71  18  18
+minus_new	   	640 640hud8		54    71  13  18
+plus_new           		640 640hud8	              67    71  13  18
+dollarNum_0_new	   	640 640hud8	              80    71  13  18
+dollarNum_1_new	   	640 640hud8	              93    71  13  18
+dollarNum_2_new	   	640 640hud8	              106    71  13  18
+dollarNum_3_new	   	640 640hud8	              119    71  13  18
+dollarNum_4_new	   	640 640hud8	              132    71  13  18
+dollarNum_5_new	   	640 640hud8	              145    71  13  18
+dollarNum_6_new	   	640 640hud8	              158    71  13  18
+dollarNum_7_new	   	640 640hud8	              171    71  13  18
+dollarNum_8_new	   	640 640hud8	              184    71  13  18
+dollarNum_9_new	   	640 640hud8	              197    71  13  18
+number_0_new		640 640hud8					36  89	17	22
+number_1_new		640 640hud8					53  89	17	22
+number_2_new		640 640hud8					70  89	17	22
+number_3_new		640 640hud8					87  89	17	22
+number_4_new		640 640hud8					104 89	17	22
+number_5_new		640 640hud8					121 89	17	22
+number_6_new		640 640hud8					138 89	17	22
+number_7_new		640 640hud8					155 89	17	22
+number_8_new		640 640hud8					172 89	17	22
+number_9_new		640 640hud8					189 89	17	22
+divisionline_new   	640 640hud8                  199   89    2  20   
+
+weapon_selection_new   640 640hud8                  0   133   170  61
+weapon_get_bg_new      640 640hud8                  0   110   170  23
+
+c4_off_new         640 640hud8                  210   71   41  24
+c4_on_new         640 640hud8                  210   95   41  24
+hostage_new        640 640hud8    171    144    15    30
+
+cross_new			640 640hud8	204	0	16	16
+buyzone_new			640 640hud7	96	148	32	32
+
+suit_full_new                640 640hud8    187    144    16    16
+suit_empty_new               640 640hud8    203    144    16    16
+suithelmet_full_new            640 640hud8    219    144    16    16
+suithelmet_empty_new            640 640hud8    235    144    16    16
+
+dollar_new_on	   	        640 640hud8	                0     194  18  18
+dollarNum_0_new_on	   	640 640hud8	                18    194  13  18
+dollarNum_1_new_on	   	640 640hud8	                31    194  13  18
+dollarNum_2_new_on	   	640 640hud8	                44    194  13  18
+dollarNum_3_new_on	   	640 640hud8	                57    194  13  18
+dollarNum_4_new_on	   	640 640hud8	                70    194  13  18
+dollarNum_5_new_on	   	640 640hud8	                83    194  13  18
+dollarNum_6_new_on	   	640 640hud8	                96    194  13  18
+dollarNum_7_new_on	   	640 640hud8	                109   194  13  18
+dollarNum_8_new_on	   	640 640hud8	                122   194  13  18
+dollarNum_9_new_on	   	640 640hud8	                135   194  13  18
+```
