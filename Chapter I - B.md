@@ -26,7 +26,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 
 ![List of installed Metahook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-mh.png)
 
-## $\color{Cyan}{Third\ Party\ Plugins}$ 
+## $\color{ProcessBlue}{Third\ Party\ Plugins}$ 
 The plugins listed here are the plugins I have tried and used. When you have done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md). **Some Metahook plugins may need AMX Mod X to be installed first.
 
 ### $\color{GreenYellow}{General\ installation}$
@@ -38,7 +38,7 @@ Metahook plugin installation is generally the same.
 5. Read any additional info/steps if there's any.
 6. Start the game and make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
 
-### $\color{Cyan}{[Client\ Precache\ (build\ 3266\ only)]}$
+### $\color{Cyan}{Client\ Precache\ (build\ 3266\ only)}$
 > [!WARNING]
 > The latest MetaHookSv version that supports this plugin is [v20250225b](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). If you have already installed a newer version, please roll back to v20250225b.
 
@@ -48,7 +48,7 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read it rig
 2. Open `cstrike\delta.lst` with any text editor.
 3. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
 
-### $\color{Cyan}{[Metadrawer]}$
+### $\color{Cyan}{Metadrawer}$
 > [!CAUTION]
 > As of now (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with latest release of MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash. If you're using v20250225b version, it still can run fine. No need to clear `plugins.lst` first.
 
@@ -67,7 +67,7 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 > [!TIP]
 > Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same features. But don't mix them unless you're know what you're doing.
 
-### $\color{Cyan}{[MetaCCX]}$
+### $\color{Cyan}{MetaCCX}$
 My personal and first MetaHookSv which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S.
 
 1. ~~Download from [here] and install as written on the guide above~~ Soon!
