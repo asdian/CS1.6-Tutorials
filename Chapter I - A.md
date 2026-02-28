@@ -8,7 +8,7 @@
 Choose between build 3266 or Latest version.
 
 ## $\color{Cyan}{[Build\ 3266]}$ 
-1. Download CS1.6 build 3266 from [here](https://archive.org/details/counter-strike-1.6_202106). (Why 3266? You will find it later.)
+1. Download CS1.6 build 3266 from [here](https://archive.org/details/counter-strike-1.6_202106). (Why 3266? You will find it later)
 2. Install it to your desired folder
 3. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
 
