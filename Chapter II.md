@@ -17,10 +17,12 @@ Below is tutorials of setting up workspace for AMX Mod X scripting.
 ## $\color{BlueGreen}{Scripting\ software}$
 There are two softwares that I use for AMX Mod X scripting.
 
-[Easy](#colorcyanadvanced-method)$\color{GreenYellow}{}$ / [Advanced](#colorcyanadvanced-method)$\color{GreenYellow}{}$
 ---
-#### $\color{GreenYellow}{Easy\ Method\ /}$
+#### $\color{GreenYellow}{Easy\ Method}$
 The easy way is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
+
+> [!TIP]
+> [Advanced](#colorcyanadvanced-method)$\color{GreenYellow}{}$
 
 1. Download the AMX Mod X Studio from [here](https://sourceforge.net/projects/amxmodx/files/AMX%20Mod%20X%20Studio/1.4.3%20final/AMXX_Studio_1.4.3_final.zip/download). It's a portable software, you just have to extract it.
 2. Place it somewhere. `Example: D:/Projects/CS1.6/AMX Studio/(here)`.
