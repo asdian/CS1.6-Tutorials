@@ -17,7 +17,7 @@ Below is tutorials of setting up workspace for AMX Mod X scripting.
 #### $\color{GreenYellow}{Scripting\ software}$
 There are two softwares that I use for AMX Mod X scripting.
 
-## $\color{Cyan}{[Easy\ Way\ / Advanced]}$ 
+## $\color{Cyan}{[Easy\ Method\ /}$ [Advanced](https://your-link-here-or-#anchor)$\color{Cyan}{]}$
 > ### Easy Way / [Advanced Way]
 ---
 > #### The easy way is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
