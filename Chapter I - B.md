@@ -64,12 +64,9 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 2. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder. 
 > [!WARNING]
 > Metadrawer package will replace `plugins.lst` with its own file if you place the entire `cstrike` folder, unless you want to do it manually.
-
-3. Restore your `cstrike\metahook\configs\plugins.lst`.
-4. Install as written on the guide above. 
-5. Go to cstrike folder, create a file named _`userconfig.cfg`_ (a must, can't use random naming). Not a .txt file, make sure you have done that properly.
-6. Write this command: _`md_newmenu "0"`_ inside and save it.
-
+3. Install as written on the guide above. 
+4. Go to cstrike folder, create a file named _`userconfig.cfg`_ (a must, can't use random naming). Not a .txt file, make sure you have done that properly.
+5. Write this command: _`md_newmenu "0"`_ inside and save it.
 
 > [!TIP]
 > Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same features. But don't mix them unless you're know what you're doing.
