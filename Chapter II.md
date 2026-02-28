@@ -1,4 +1,4 @@
-# Chapter II - AMX Mod X Setup
+# Chapter II - AMX Mod X Scripting Setup
 Below is tutorials of setting up workspace for AMX Mod X scripting.
 
 > [!NOTE]
