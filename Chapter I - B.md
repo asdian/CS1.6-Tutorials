@@ -83,9 +83,9 @@ My personal and first MetaHookSv plugin which aimed to be complementary of my CC
 3. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
 4. Open `cstrike/sprites/hud.txt`.
 5. At the very top, change the number into a larger and reasonable number. (e.g. `512`)
-6. Find any `buyzone` entry.
-7. Replace `640hud7` value to `null`.
-8. Add these entries:
+6. Find any `buyzone` entries.
+7. Replace `640hud7` value of them to `null`.
+8. Add these entries: (just place them to the bottom of the file)
 ```text
 //Hud_ingame(HUD       )
 nightvision_off_new        	640 640hud8                  	171   120  32  24
