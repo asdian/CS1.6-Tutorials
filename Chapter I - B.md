@@ -13,10 +13,10 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 
 ### Installation Steps
 1. Download MetaHookSv from [here](https://github.com/hzqst/MetaHookSv/releases). 
-> [!CAUTION]
+> [!WARNING]
 > - For 3266 game build, <ins>choose blob.</ins> 
 
-2. Copy `cstrike_hd`, `echoes`, `gearbox`, `platform`, `Metahookexe` or `Metahook_blob.exe`, `SDL2.dll`, and `SDL3.dll` into your installed CS1.6 folder.
+2. Copy `cstrike_hd`, `echoes`, `gearbox`, `platform`, `Metahook.exe` or `Metahook_blob.exe`, `SDL2.dll`, and `SDL3.dll` into your installed CS1.6 folder.
 3. Open `svencoop` folder and copy everything into `cstrike` folder.
 4. Back to your installed CS1.6 folder, rename the original `cstrike.exe` to something else if exist (as a backup).
 5. Rename <ins>`Metahook.exe`(latest CS)</ins> or <ins>`Metahook_blob.exe`(for 3266)</ins> to `cstrike.exe`
