@@ -6,7 +6,9 @@ Guide to install MetaHookSv and Its Third Party Plugins.
 
 ## $\color{BlueGreen}{MetaHookSv}$
 #### $\color{Apricot}{What\ is\ Metahook?}$
-Metahook is an addon for Goldsrc-based games to give extensive functionality (like ReHLDS and such). It works by using a special launcher that renames itself to match the game's executable, such as cstrike.exe, then loads the real game while injecting its own DLL early in the process. This DLL hooks into the engine's core functions, like rendering and input, using techniques such as inline patches and virtual table replacements. Once hooked, MetaHook loads plugins from a folder as DLL files, allowing them to add features like custom HUDs, improved lighting, shaders, and modern graphics effects. Because of that, Metahook is heavily dependent with newer OpenGL and DirectX system, with moderate system specification (just to be safe). Unfortunately as I wrote this guide, Metahook is for Windows only, which is have its specific requirements to be used for multiplayer/online mode (don't ask me how, I don't know either). 
+Metahook is an addon for Goldsrc-based games to give extensive functionality (like ReHLDS and such). It works by using a special launcher that renames itself to match the game's executable, such as cstrike.exe, then loads the real game while injecting its own DLL early in the process. This DLL hooks into the engine's core functions, like rendering and input, using techniques such as inline patches and virtual table replacements. Once hooked, MetaHook loads plugins from a folder as DLL files, allowing them to add features like custom HUDs, improved lighting, shaders, and modern graphics effects. Because of that, Metahook is heavily dependent with newer OpenGL and DirectX system, with moderate system specification (just to be safe). Unfortunately as I wrote this guide, Metahook is for Windows only, which is have its specific requirements to be used for multiplayer/online mode (don't ask me how, I don't know either).
+
+Very first MetaHook version is just "MetaHook" developed by Nagist. There's also "MetaHook Plus" version, I assume it's Nagist's fork for CS:BTE family of games. And finally, the latest and actively maintained version is "MetaHookSv" developed by hzqst, which is the one I'm using. It's originally developed for Svencoop, but it can be used for CS1.6 as well. MetaHookSv comes with its own set of plugins. [The plugin list](https://github.com/hzqst/MetaHookSv/blob/main/docs/Plugins.md).
 
 #### $\color{GreenYellow}{System\ Requirements}$
 - Read more [Here](https://github.com/hzqst/MetaHookSv/blob/main/docs/Renderer.md#gpu-requirement).
@@ -40,7 +42,7 @@ Metahook plugin installation is generally the same.
 
 ### $\color{ProcessBlue}{Client\ Precache\ (build\ 3266\ only)}$
 > [!WARNING]
-> The latest MetaHookSv version that supports this plugin is [v20250225b](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). If you have already installed a newer version, please roll back to v20250225b.
+> The latest MetaHookSv version that supports this plugin is [v20250225b](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). If you have already installed a newer version, please roll back to v20250225b to avoid issues.
 
 Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin only designed specifically for build 3266. That's why I mention build 3266 in the first place and specific MetaHookSv version to be installed.
 
