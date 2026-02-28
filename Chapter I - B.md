@@ -11,7 +11,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 ### $\color{Turquoise}{System\ Requirements}$
 - Read more [Here](https://github.com/hzqst/MetaHookSv/blob/main/docs/Renderer.md#gpu-requirement).
 
-### [Installation Steps]
+### $\color{Turquoise}{Installation\ Steps}$
 1. Download MetaHookSv from [here](https://github.com/hzqst/MetaHookSv/releases). 
 > [!IMPORTANT]
 > - For 3266 game build, <ins>choose blob.</ins> 
@@ -29,7 +29,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 ## $\color{Cyan}{[Third\ Party\ Plugins]}$ 
 The plugins listed here are the plugins I have tried and used. When you have done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md). **Some Metahook plugins may need AMX Mod X to be installed first.
 
-### [General installation]
+### $\color{Turquoise}{General\ installation}$
 Metahook plugin installation is generally the same.
 1. Download the plugin.
 2. Find and copy the `.dll` file into `cstrike\metahook\plugins`.
