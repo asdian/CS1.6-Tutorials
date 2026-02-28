@@ -19,8 +19,9 @@ There are two softwares that I use for AMX Mod X scripting.
 
 ---
 #### $\color{GreenYellow}{Easy\ Method}$
-The easy way is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
 > [Take me to Advanced method](#colorcyanadvanced-method)$\color{GreenYellow}{}$
+
+The easy way is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
 
 1. Download the AMX Mod X Studio from [here](https://sourceforge.net/projects/amxmodx/files/AMX%20Mod%20X%20Studio/1.4.3%20final/AMXX_Studio_1.4.3_final.zip/download). It's a portable software, you just have to extract it.
 2. Place it somewhere. `Example: D:/Projects/CS1.6/AMX Studio/(here)`.
