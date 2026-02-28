@@ -44,10 +44,10 @@ MetaHook plugin installation is generally the same.
 6. Start the game and make sure the new MetaHook plugin is listed after you're typing _`mh_pluginlist`_.
 
 ### $\color{ProcessBlue}{Client\ Precache\ (build\ 3266\ only)}$
+Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin is made ***only*** for build 3266. Since it's an old, closed-source plugin, people can't make updates for it. Hence, a specific MetaHookSv version and CS build is required.
+
 > [!WARNING]
 > The latest MetaHookSv version that supports this plugin is [v20250225b](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). If you have already installed a newer version, please roll back to v20250225b to avoid issues.
-
-Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin is made ***only*** for build 3266. Since it's an old, closed-source plugin, people can't make updates for it. Hence, a specific MetaHookSv version and CS build is required.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
 1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file)
