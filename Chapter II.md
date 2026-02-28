@@ -43,7 +43,8 @@ The advanced method is using Visual Studio Code. A modern software for advanced 
 ![AMXX VSCode3](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/VSCode/Screenshot_3.png)
 5. Edit your working folders and files as needed.
 ![AMXX VSCode4](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/VSCode/Screenshot_4.png)
-** The syntax must be correct to be able to find your files.
+> [!IMPORTANT]
+> The syntax must be correct to be able to find your files.
 6. Then save it or press `CTRL + S` and you're good to go.
 
 ## What is the difference?
