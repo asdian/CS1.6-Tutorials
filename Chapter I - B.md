@@ -32,7 +32,7 @@ Very first MetaHook version is just "MetaHook" developed by Nagist. There's also
 The plugins listed here are the plugins I have tried and used. When you have done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md).
 
 > [!NOTE]
-> Some Metahook plugins may need AMX Mod X to be installed first.
+> Some Metahook plugins may require AMX Mod X to be installed first.
 
 #### $\color{GreenYellow}{General\ installation}$
 Metahook plugin installation is generally the same.
