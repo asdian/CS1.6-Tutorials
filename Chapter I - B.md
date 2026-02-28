@@ -73,7 +73,7 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 > Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same features. But don't mix them unless you're know what you're doing.
 
 ### $\color{ProcessBlue}{MetaCCX}$
-My personal and first MetaHookSv which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S.
+My personal and first MetaHookSv which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S. It's still in beta phase, please report for bug(s) if you found any.
 
 1. Download from [here]
 2. Extract the files.
