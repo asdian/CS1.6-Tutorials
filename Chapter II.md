@@ -30,7 +30,7 @@ There are two softwares that I use for AMX Mod X scripting.
 ![AMXX Studio 2](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/AMXStudio/Screenshot_3.png)
 8. Press `OK` and you're good to go. Easy right?
 ---
-$\color{Cyan}{[Advanced\ Method]}$
+## $\color{Cyan}{[Advanced\ Method]}$
 > #### The advanced method is using Visual Studio Code. A modern software for advanced AMX Mod X scripting.
 
 3. Download and install [VSCode](https://code.visualstudio.com/)
