@@ -47,7 +47,7 @@ MetaHook plugin installation is generally the same.
 > [!WARNING]
 > The latest MetaHookSv version that supports this plugin is [v20250225b](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). If you have already installed a newer version, please roll back to v20250225b to avoid issues.
 
-Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin is made only for build 3266. That's why I mention build 3266 in the first place and specific MetaHookSv version to be installed.
+Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin is made **only** for build 3266. That's why I mention build 3266 in the first place and specific MetaHookSv version to be installed.
 
 1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file) then install as written on the guide above.
 2. Open `cstrike\delta.lst` with any text editor.
