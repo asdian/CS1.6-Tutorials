@@ -6,14 +6,15 @@ Below is tutorials of setting up workspace for AMX Mod X scripting.
 > 
 > A RAW file (uncompiled) before `.amxx` is in `.sma` format. We need a software to properly create or modify and then compiling it into an `.amxx`.
 
-## $\color{BlueGreen}{Setting\ up\ working\ space}$
-1. I would like to use existing `scripting` folder. It's at `cstrike/addons/amxmodx` folder.
+## $\color{BlueGreen}{Main\ set-up}$
+1. Personally, I like to use existing `scripting` folder. It's at `cstrike/addons/amxmodx` folder. It's up to you.
 2. Create and place the `scripting` folder or contents into your project folder. Here's the example:
 ![AMX Mod X Minimal Files](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/AMXStudio/Screenshot_1.png)
 > [!TIP]
 > I recommend to not put the files inside the CS1.6 installation folder, in case when you need to clean install the game it saves you the hassle from doing backups.
 
-#### Now, let's set up our scripting software. There are two softwares that I use for AMX Mod X scripting.
+#### $\color{GreenYellow}{Scripting\ software}$
+There are two softwares that I use for AMX Mod X scripting.
 
 > ### Easy Way / [Advanced Way](https://github.com/asdian/CS1.6-Tuts/blob/main/AMXModX-Scripts.md#the-advanced-way-is-using-visual-studio-code)
 ---
