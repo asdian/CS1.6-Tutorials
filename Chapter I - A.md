@@ -20,5 +20,5 @@ Choose between build 3266 or Latest version.
 
 When you done, continue to [MetaHook Installation](Chapter%20I%20-%20B.md) (optional) or [AMX Mod X installation](Chapter%20I%20-%20C.md).
 
-[Telegram Channgel](https://t.me/dxcave)
-[Telegram Chat Group](https://t.me/dxcave_chat)
+:globe_with_meridians: [Telegram Channel](https://t.me/dxcave)\
+:speech_balloon: [Telegram Chat Group](https://t.me/dxcave_chat)

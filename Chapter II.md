@@ -55,5 +55,5 @@ For easy and short scripts, AMX Mod X Studio is <ins>better</ins> because it can
 ## $\color{BlueGreen}{Start\ Scripting}$
 Refer to this [link](https://forums.alliedmods.net/showthread.php?t=172936). There's already a ton of AMX Mod X scripting Tutorials, Guides, Snippets, and References. Good luck!
 
-:globe_with_meridians: [Telegram Channgel](https://t.me/dxcave)\
+:globe_with_meridians: [Telegram Channel](https://t.me/dxcave)\
 :speech_balloon: [Telegram Chat Group](https://t.me/dxcave_chat)

@@ -52,5 +52,5 @@ Next, type _`meta list`_ and _`amxx plugins`_. If the output matches what's show
 
 ![Metamod installation status.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-2.png)
 
-[Telegram Channgel](https://t.me/dxcave)
-[Telegram Chat Group](https://t.me/dxcave_chat)
+:globe_with_meridians: [Telegram Channel](https://t.me/dxcave)\
+:speech_balloon: [Telegram Chat Group](https://t.me/dxcave_chat)
