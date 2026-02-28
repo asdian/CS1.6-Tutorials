@@ -17,7 +17,6 @@ Below is tutorials of setting up workspace for AMX Mod X scripting.
 ## $\color{BlueGreen}{Scripting\ software}$
 There are two softwares that I use for AMX Mod X scripting.
 
----
 #### $\color{GreenYellow}{Easy\ Method}$
 > [Take me to Advanced method](#colorcyanadvanced-method)$\color{GreenYellow}{}$
 
@@ -31,7 +30,7 @@ The easy method is using AMX Mod X Studio. A lightweight software for AMX Mod X 
 5. Go to `Compiler` menu, and apply the corresponding `amxxpc.exe` and `compile.exe` from your directory / the step 2.
 ![AMXX Studio 2](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/AMXStudio/Screenshot_3.png)
 6. Press `OK` and you're good to go. Easy right?
----
+
 #### $\color{GreenYellow}{Advanced\ Method}$
 The advanced method is using Visual Studio Code. A modern software for advanced AMX Mod X scripting.
 
