@@ -14,10 +14,10 @@ Below is tutorials of setting up workspace for AMX Mod X scripting.
 > [!TIP]
 > I recommend to not put the files inside the CS1.6 installation folder, in case when you need to clean install the game it saves you the hassle from doing backups.
 
-#### $\color{GreenYellow}{Scripting\ software}$
+## $\color{BlueGreen}{Scripting\ software}$
 There are two softwares that I use for AMX Mod X scripting.
 
-#### $\color{Cyan}{[Easy\ Method\ /}$ [Advanced (click)](#colorcyanadvanced-method)$\color{Cyan}{]}$
+#### $\color{GreenYellow}{[Easy\ Method\ /}$ [Advanced (click)](#colorcyanadvanced-method)$\color{GreenYellow}{]}$
 ---
 The easy way is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
 
@@ -30,7 +30,7 @@ The easy way is using AMX Mod X Studio. A lightweight software for AMX Mod X scr
 ![AMXX Studio 2](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/AMXStudio/Screenshot_3.png)
 6. Press `OK` and you're good to go. Easy right?
 ---
-#### $\color{Cyan}{[Advanced\ Method]}$
+#### $\color{GreenYellow}{[Advanced\ Method]}$
 The advanced method is using Visual Studio Code. A modern software for advanced AMX Mod X scripting.
 
 1. Download and install [VSCode](https://code.visualstudio.com/)
