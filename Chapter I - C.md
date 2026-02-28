@@ -51,3 +51,6 @@ Now, run the game again. Play for few minutes or hours. Change maps, change team
 Next, type _`meta list`_ and _`amxx plugins`_. If the output matches what's shown in the image below (or something similar, i.e., it outputs actual information instead of an 'unknown command' error), then AMX Mod X and its complementary addons are successfully installed.
 
 ![Metamod installation status.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-2.png)
+
+[Telegram Channgel](https://t.me/dxcave)
+[Telegram Chat Group](https://t.me/dxcave_chat)

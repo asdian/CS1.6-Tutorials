@@ -141,5 +141,5 @@ dollarNum_8_new_on	   	640 640hud8	                122   194  13  18
 dollarNum_9_new_on	   	640 640hud8	                135   194  13  18
 ```
 
-Telegram Channgel: https://t.me/dxcave
-Telegram Chat Group: https://t.me/dxcave_chat
+[Telegram Channgel](https://t.me/dxcave)
+[Telegram Chat Group](https://t.me/dxcave_chat)

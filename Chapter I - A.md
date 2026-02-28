@@ -19,3 +19,6 @@ Choose between build 3266 or Latest version.
 4. Steam version doesn't come with bot option by default. You have to install bot addon yourself or use from ReGameDLL (you'll find it later).
 
 When you done, continue to [MetaHook Installation](Chapter%20I%20-%20B.md) (optional) or [AMX Mod X installation](Chapter%20I%20-%20C.md).
+
+[Telegram Channgel](https://t.me/dxcave)
+[Telegram Chat Group](https://t.me/dxcave_chat)
