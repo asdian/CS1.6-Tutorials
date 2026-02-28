@@ -17,33 +17,33 @@ Below is tutorials of setting up workspace for AMX Mod X scripting.
 #### $\color{GreenYellow}{Scripting\ software}$
 There are two softwares that I use for AMX Mod X scripting.
 
-## $\color{Cyan}{[Easy\ Method\ /}$ [Advanced (click)](#colorcyanadvanced-method)$\color{Cyan}{]}$
+#### $\color{Cyan}{[Easy\ Method\ /}$ [Advanced (click)](#colorcyanadvanced-method)$\color{Cyan}{]}$
 ---
-> #### The easy way is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
+The easy way is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
 
-3. Download the AMX Mod X Studio from [here](https://sourceforge.net/projects/amxmodx/files/AMX%20Mod%20X%20Studio/1.4.3%20final/AMXX_Studio_1.4.3_final.zip/download). It's a portable software, you just have to extract it.
-4. Place it somewhere. `Example: D:/Projects/CS1.6/AMX Studio/(here)`.
-5. Open `AMXX_Studio.exe`.
-6. Go to `Tools` -> `Settings`.
+1. Download the AMX Mod X Studio from [here](https://sourceforge.net/projects/amxmodx/files/AMX%20Mod%20X%20Studio/1.4.3%20final/AMXX_Studio_1.4.3_final.zip/download). It's a portable software, you just have to extract it.
+2. Place it somewhere. `Example: D:/Projects/CS1.6/AMX Studio/(here)`.
+3. Open `AMXX_Studio.exe`.
+4. Go to `Tools` -> `Settings`.
 ![AMXX Studio 1](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/AMXStudio/Screenshot_2.png)
-7. Go to `Compiler` menu, and apply the corresponding `amxxpc.exe` and `compile.exe` from your directory / the step 2.
+5. Go to `Compiler` menu, and apply the corresponding `amxxpc.exe` and `compile.exe` from your directory / the step 2.
 ![AMXX Studio 2](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/AMXStudio/Screenshot_3.png)
-8. Press `OK` and you're good to go. Easy right?
+6. Press `OK` and you're good to go. Easy right?
 ---
-## $\color{Cyan}{[Advanced\ Method]}$
-> #### The advanced method is using Visual Studio Code. A modern software for advanced AMX Mod X scripting.
+#### $\color{Cyan}{[Advanced\ Method]}$
+The advanced method is using Visual Studio Code. A modern software for advanced AMX Mod X scripting.
 
-3. Download and install [VSCode](https://code.visualstudio.com/)
-4. Go to `Extensions` and install `AMXXPawn Language` by `KliPPy`.
+1. Download and install [VSCode](https://code.visualstudio.com/)
+2. Go to `Extensions` and install `AMXXPawn Language` by `KliPPy`.
 ![AMXX VScode1](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/VSCode/Screenshot_1.png)
-5. After installing it, go to `Manage` then `Settings`.
+3. After installing it, go to `Manage` then `Settings`.
 ![AMXX VSCode2](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/VSCode/Screenshot_2.png)
-6. Click `Edit in settings.json` (doesn't matter which one).
+4. Click `Edit in settings.json` (doesn't matter which one).
 ![AMXX VSCode3](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/VSCode/Screenshot_3.png)
-7. Edit your working folders and files as needed.
+5. Edit your working folders and files as needed.
 ![AMXX VSCode4](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/VSCode/Screenshot_4.png)
 ** The syntax must be correct to be able to find your files.
-8. Then save it or press `CTRL + S` and you're good to go.
+6. Then save it or press `CTRL + S` and you're good to go.
 
 ## What are the difference?
 So far, from what I can tell only few differences that's significantly affects experience.
