@@ -29,7 +29,7 @@ AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administra
 7. Save and close.
 
 ## $\color{BlueGreen}{ReGameDLL}$
-Read the details [here](https://github.com/rehlds/ReGameDLL_CS).
+Read the details [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#regamedll_cs-----).
 
 ### $\color{GreenYellow}{Installation\ Steps}$
 1. Download either [Dev Build](https://github.com/rehlds/ReGameDLL_CS/actions/workflows/build.yml) or [Release Build](https://github.com/rehlds/ReGameDLL_CS/releases) (not both).
