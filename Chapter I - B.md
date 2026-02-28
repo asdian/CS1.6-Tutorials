@@ -49,6 +49,7 @@ MetaHook plugin installation is generally the same.
 
 Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin is made ***only*** for build 3266. Since it's an old, closed-source plugin, people can't make updates for it. Hence, a specific MetaHookSv version and CS build is required.
 
+#### $\color{GreenYellow}{Installation\ Steps}$
 1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file)
 2. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
 3. Open `cstrike\delta.lst` with any text editor.
@@ -60,6 +61,7 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read it rig
 
 Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
 
+#### $\color{GreenYellow}{Installation\ Steps}$
 0. Requires full [AMX Mod X installation](Chapter%20I%20-%20C.md).
 1. Download from [here](https://gamebanana.com/mods/39420).
 2. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder. 
@@ -75,6 +77,7 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 ### $\color{ProcessBlue}{MetaCCX}$
 My personal and first MetaHookSv which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S. It's still in beta phase, please report for bug(s) if you found any.
 
+#### $\color{GreenYellow}{Installation\ Steps}$
 1. Download from [here]
 2. Extract the files.
 3. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
