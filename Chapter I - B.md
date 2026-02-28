@@ -5,13 +5,13 @@
 > This is a bit complicated step, make sure you followed carefully. A slight miss can lead to game crash/unstable.
 > Don't rush it, take your time.
 
-### What is Metahook?
+### [What is Metahook?]
 Metahook is an addon for Goldsrc-based games to give extensive functionality (like ReHLDS and such). It works by using a special launcher that renames itself to match the game's executable, such as cstrike.exe, then loads the real game while injecting its own DLL early in the process. This DLL hooks into the engine's core functions, like rendering and input, using techniques such as inline patches and virtual table replacements. Once hooked, MetaHook loads plugins from a folder as DLL files, allowing them to add features like custom HUDs, improved lighting, shaders, and modern graphics effects. Because of that, Metahook is heavily dependent with newer OpenGL and DirectX system, with moderate system specification (just to be safe). Unfortunately as I wrote this guide, Metahook is for Windows only, which is have its specific requirements to be used for multiplayer/online mode (don't ask me how, I don't know either). 
 
-### System Requirements
+### [System Requirements]
 - Read more [Here](https://github.com/hzqst/MetaHookSv/blob/main/docs/Renderer.md#gpu-requirement).
 
-### Installation Steps
+### [Installation Steps]
 1. Download MetaHookSv from [here](https://github.com/hzqst/MetaHookSv/releases). 
 > [!WARNING]
 > - For 3266 game build, <ins>choose blob.</ins> 
@@ -29,7 +29,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 ## $\color{Cyan}{[Third\ Party\ Plugins]}$ 
 The plugins listed here are the plugins I have tried and used. When you have done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md). **Some Metahook plugins may need AMX Mod X to be installed first.
 
-### General installation
+### [General installation]
 Metahook plugin installation is generally the same.
 1. Download the plugin.
 2. Find and copy the `.dll` file into `cstrike\metahook\plugins`.
@@ -38,7 +38,7 @@ Metahook plugin installation is generally the same.
 5. Read any additional info/steps if there's any.
 6. Start the game and make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
 
-### A. Client Precache (build 3266 only)
+#### A. Client Precache (build 3266 only)
 > [!CAUTION]
 > The latest MetaHookSv version that supports this plugin is [v20250225b](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). If you have already installed a newer version, please roll back to v20250225b.
 
@@ -48,7 +48,7 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read it rig
 2. Open `cstrike\delta.lst` with any text editor.
 3. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
 
-### B. Metadrawer
+#### B. Metadrawer
 > [!CAUTION]
 > As of now (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with latest release of MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash. If you're using v20250225b version, it still can run fine. No need to clear `plugins.lst` first.
 
@@ -67,7 +67,7 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 > [!TIP]
 > Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same functionality. But don't mix them unless you're know what you're doing.
 
-### C. MetaCCX
+#### C. MetaCCX
 My personal and first MetaHookSv which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S.
 
 1. ~~Download from [here] and install as written on the guide above~~ Soon!
