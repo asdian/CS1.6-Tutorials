@@ -8,7 +8,7 @@ A RAW file (uncompiled) before `.amxx` is in `.sma` file. We need a software to 
 
 ## $\color{BlueGreen}{Main\ setup}$
 #### $\color{GreenYellow}{Working\ folder}$
-1. Personally, I like to use existing `scripting` folder. It's at `cstrike/addons/amxmodx` folder. It's up to you.
+1. Personally, I like to use existing `scripting` folder from `cstrike/addons/amxmodx`. It's up to you.
 2. Create and place the `scripting` folder or contents into your project folder. Here's an example:
 ![AMX Mod X Minimal Files](https://github.com/asdian/CS1.6-Tuts/blob/main/Pics/AMXX-Scripting/AMXStudio/Screenshot_1.png)
 > [!TIP]
