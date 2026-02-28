@@ -38,7 +38,7 @@ Metahook plugin installation is generally the same.
 5. Read any additional info/steps if there's any.
 6. Start the game and make sure the new Metahook plugin is listed after you're typing _`mh_pluginlist`_.
 
-#### A. Client Precache (build 3266 only)
+#### $\color{Cyan}{A.\ Client\ Precache\ (build\ 3266\ only)}$
 > [!CAUTION]
 > The latest MetaHookSv version that supports this plugin is [v20250225b](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). If you have already installed a newer version, please roll back to v20250225b.
 
