@@ -1,7 +1,7 @@
 # Chapter I: Section C - AMX Mod X
 ## Guide to install AMX Mod X and Its Complementary Addons
 
-## A. Metamod
+## $\color{BlueGreen}{Metamod}$ 
 Metamod is a plugin loader / manager originally created for games using the GoldSrc engine (like Half-Life 1 and Counter-Strike 1.6). It acts as a middleware layer that sits between the game engine and the actual game mod (the game DLL), allowing server owners to dynamically load and unload additional plugin DLLs without modifying the core game files. This made it possible to add custom server features, admin tools, anti-cheat systems, bots, fun commands, statistics, etc.
 
 ### $\color{GreenYellow}{Installation\ Steps}$
@@ -16,7 +16,7 @@ Metamod is a plugin loader / manager originally created for games using the Gold
 6. Find `gamedll` entry, then change its string to `"addons\metamod\metamod.dll"` (with quote).
 7. Save and close.
 
-## B. AMX Mod X
+## $\color{BlueGreen}{AMX\ Mod\ X}$
 AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administration framework designed as a Metamod plugin for Half-Life 1 (GoldSrc engine) games, most famously Counter-Strike 1.6. It lets server admins and developers create custom plugins to add features like admin commands (kick/ban/slay/reservations), voting systems, anti-flood, stats tracking, weapon restrictions, custom game modes, bots, and much more—without touching the core game files.
 
 ### $\color{GreenYellow}{Installation\ Steps}$
@@ -28,7 +28,7 @@ AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administra
 6. Write this entry: `win32   addons\amxmodx\dlls\amxmodx_mm.dll`. If it's already there, then skip this step.
 7. Save and close.
 
-## C. ReGameDLL
+## $\color{BlueGreen}{ReGameDLL}$
 Read the details [here](https://github.com/rehlds/ReGameDLL_CS).
 
 ### $\color{GreenYellow}{Installation\ Steps}$
@@ -36,7 +36,7 @@ Read the details [here](https://github.com/rehlds/ReGameDLL_CS).
 2. Inside the .zip file, go to `bin\win32` folder then place `cstrike` folder into your CS1.6 directory.
 3. For latest game version, you can use its built-in bot (ZBot) [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-zbot-for-cs-16) or CS:CZ Hostage AI [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-cscz-hostage-ai-for-cs-16)
 
-## D. ReAPI
+## $\color{BlueGreen}{ReAPI}$
 From what I can understand, ReAPI is a bridging module between ReGameDLL and AMX Mod X. It lets modder/developer to use ReGame abilities from AMX Mod X.
 
 ### $\color{GreenYellow}{Installation\ Steps}$
