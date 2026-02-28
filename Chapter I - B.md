@@ -5,13 +5,13 @@
 > This is a bit complicated step, make sure you followed carefully. A slight miss can lead to game crash/unstable.
 > Don't rush it, take your time.
 
-### $\color{Turquoise}{What\ is\ Metahook?}$
+### $\color{GreenYellow}{What\ is\ Metahook?}$
 Metahook is an addon for Goldsrc-based games to give extensive functionality (like ReHLDS and such). It works by using a special launcher that renames itself to match the game's executable, such as cstrike.exe, then loads the real game while injecting its own DLL early in the process. This DLL hooks into the engine's core functions, like rendering and input, using techniques such as inline patches and virtual table replacements. Once hooked, MetaHook loads plugins from a folder as DLL files, allowing them to add features like custom HUDs, improved lighting, shaders, and modern graphics effects. Because of that, Metahook is heavily dependent with newer OpenGL and DirectX system, with moderate system specification (just to be safe). Unfortunately as I wrote this guide, Metahook is for Windows only, which is have its specific requirements to be used for multiplayer/online mode (don't ask me how, I don't know either). 
 
-### $\color{Turquoise}{System\ Requirements}$
+### $\color{GreenYellow}{System\ Requirements}$
 - Read more [Here](https://github.com/hzqst/MetaHookSv/blob/main/docs/Renderer.md#gpu-requirement).
 
-### $\color{Turquoise}{Installation\ Steps}$
+### $\color{GreenYellow}{Installation\ Steps}$
 1. Download MetaHookSv from [here](https://github.com/hzqst/MetaHookSv/releases). 
 > [!IMPORTANT]
 > - For 3266 game build, <ins>choose blob.</ins> 
@@ -29,7 +29,7 @@ Metahook is an addon for Goldsrc-based games to give extensive functionality (li
 ## $\color{Cyan}{Third\ Party\ Plugins}$ 
 The plugins listed here are the plugins I have tried and used. When you have done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md). **Some Metahook plugins may need AMX Mod X to be installed first.
 
-### $\color{Turquoise}{General\ installation}$
+### $\color{GreenYellow}{General\ installation}$
 Metahook plugin installation is generally the same.
 1. Download the plugin.
 2. Find and copy the `.dll` file into `cstrike\metahook\plugins`.
