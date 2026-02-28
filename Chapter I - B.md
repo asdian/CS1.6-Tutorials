@@ -1,5 +1,5 @@
 # Chapter I: Section B - MetaHook
-Guide to install MetaHookSv and Its Third Party Plugins.
+## Guide to install MetaHookSv and Its Third Party Plugins.
 > [!NOTE]
 > This is a bit complicated step, make sure you followed carefully. A slight miss can lead to game crash/unstable.
 > Don't rush it, take your time.
