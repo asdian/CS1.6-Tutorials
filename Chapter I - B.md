@@ -74,74 +74,17 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 > [!TIP]
 > Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same features. But don't mix them unless you're know what you're doing.
 
-### $\color{ProcessBlue}{MetaCCX}$
+### $\color{ProcessBlue}{MetaUI BETA}$
 My personal and first MetaHookSv plugin which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S. It's still in beta phase, please report for bug(s) if you found any.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
-1. Download from [here](https://t.me/dxcave_chat/1551).
+1. Download from [here](https://t.me/dxcave_chat/1551)* (because it's still beta, I don't wanna store it at cloud storage).
 2. Extract the files into `cstrike` folder.
 3. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
 4. Open `cstrike/sprites/hud.txt`.
 5. At the very top, change the number into a larger and reasonable number. (e.g. `512`)
-6. Find any `buyzone` entries, then change `640hud7` string of them to `null`.
-7. Add these entries: (just place them to the bottom of the file)
-```text
-//Hud_ingame(HUD       )
-nightvision_off_new        	640 640hud8                  	171   120  32  24
-nightvision_on_new        	640 640hud8                  	203   120  32  24
-defuser_new	          	640 640hud8	       	179   0  24  24
-dollar_new	   	640 640hud8		36    71  18  18
-minus_new	   	640 640hud8		54    71  13  18
-plus_new           		640 640hud8	              67    71  13  18
-dollarNum_0_new	   	640 640hud8	              80    71  13  18
-dollarNum_1_new	   	640 640hud8	              93    71  13  18
-dollarNum_2_new	   	640 640hud8	              106    71  13  18
-dollarNum_3_new	   	640 640hud8	              119    71  13  18
-dollarNum_4_new	   	640 640hud8	              132    71  13  18
-dollarNum_5_new	   	640 640hud8	              145    71  13  18
-dollarNum_6_new	   	640 640hud8	              158    71  13  18
-dollarNum_7_new	   	640 640hud8	              171    71  13  18
-dollarNum_8_new	   	640 640hud8	              184    71  13  18
-dollarNum_9_new	   	640 640hud8	              197    71  13  18
-number_0_new		640 640hud8					36  89	17	22
-number_1_new		640 640hud8					53  89	17	22
-number_2_new		640 640hud8					70  89	17	22
-number_3_new		640 640hud8					87  89	17	22
-number_4_new		640 640hud8					104 89	17	22
-number_5_new		640 640hud8					121 89	17	22
-number_6_new		640 640hud8					138 89	17	22
-number_7_new		640 640hud8					155 89	17	22
-number_8_new		640 640hud8					172 89	17	22
-number_9_new		640 640hud8					189 89	17	22
-divisionline_new   	640 640hud8                  199   89    2  20   
-
-weapon_selection_new   640 640hud8                  0   133   170  61
-weapon_get_bg_new      640 640hud8                  0   110   170  23
-
-c4_off_new         640 640hud8                  210   71   41  24
-c4_on_new         640 640hud8                  210   95   41  24
-hostage_new        640 640hud8    171    144    15    30
-
-cross_new			640 640hud8	204	0	16	16
-buyzone_new			640 640hud7	96	148	32	32
-
-suit_full_new                640 640hud8    187    144    16    16
-suit_empty_new               640 640hud8    203    144    16    16
-suithelmet_full_new            640 640hud8    219    144    16    16
-suithelmet_empty_new            640 640hud8    235    144    16    16
-
-dollar_new_on	   	        640 640hud8	                0     194  18  18
-dollarNum_0_new_on	   	640 640hud8	                18    194  13  18
-dollarNum_1_new_on	   	640 640hud8	                31    194  13  18
-dollarNum_2_new_on	   	640 640hud8	                44    194  13  18
-dollarNum_3_new_on	   	640 640hud8	                57    194  13  18
-dollarNum_4_new_on	   	640 640hud8	                70    194  13  18
-dollarNum_5_new_on	   	640 640hud8	                83    194  13  18
-dollarNum_6_new_on	   	640 640hud8	                96    194  13  18
-dollarNum_7_new_on	   	640 640hud8	                109   194  13  18
-dollarNum_8_new_on	   	640 640hud8	                122   194  13  18
-dollarNum_9_new_on	   	640 640hud8	                135   194  13  18
-```
+6. Find any `buyzone`, `flash_`, and `c4_` entries, then change `640hud7` string of them to `null`.
+*Link might be expired as there will be more updates.
 
 :globe_with_meridians: [Telegram Channel](https://t.me/dxcave)\
 :speech_balloon: [Telegram Chat Group](https://t.me/dxcave_chat)
