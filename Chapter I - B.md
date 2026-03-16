@@ -78,7 +78,7 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 My personal and first MetaHookSv plugin which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S. It's still in beta phase, please report for bug(s) if you found any.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
-1. Download from [here](https://t.me/dxcave_chat/1551)* (because it's still beta, I don't wanna store it at cloud storage).
+1. Download from [here](https://t.me/dxcave_chat/1551)* (because it's still beta, I don't wanna store it at cloud storage just yet).
 2. Extract the files into `cstrike` folder.
 3. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
 4. Open `cstrike/sprites/hud.txt`.
