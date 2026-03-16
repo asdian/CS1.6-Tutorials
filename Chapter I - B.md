@@ -84,6 +84,7 @@ My personal and first MetaHookSv plugin which aimed to be complementary of my CC
 4. Open `cstrike/sprites/hud.txt`.
 5. At the very top, change the number into a larger and reasonable number. (e.g. `512`)
 6. Find any `buyzone`, `flash_`, and `c4_` entries, then change `640hud7` string of them to `null`.
+
 *Link might be expired as there will be more updates.
 
 :globe_with_meridians: [Telegram Channel](https://t.me/dxcave)\
