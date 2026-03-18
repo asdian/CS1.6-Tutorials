@@ -78,6 +78,9 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 > Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same features. But don't mix them unless you're know what you're doing.
 
 ### $\color{ProcessBlue}{MetaUI\ BETA}$
+> [!NOTE]
+> Requires AMX Mod X.
+
 My personal and first MetaHookSv plugin which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S. It's still in beta phase, please report for bug(s) if you found any.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
@@ -87,7 +90,8 @@ My personal and first MetaHookSv plugin which aimed to be complementary of my CC
 4. Open `cstrike/sprites/hud.txt`.
 5. At the very top, change the number into a larger and reasonable number. (e.g. `512`)
 6. Find any `buyzone`, `flash_`, and `c4` entries, then change `640hud7` string of them to `null`.
-*Link might be expired as there will be more updates.
+
+> *Link might be expired as there will be more updates.
 
 :globe_with_meridians: [Telegram Channel](https://t.me/dxcave)\
 :speech_balloon: [Telegram Chat Group](https://t.me/dxcave_chat)
