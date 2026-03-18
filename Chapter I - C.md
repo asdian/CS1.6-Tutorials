@@ -35,9 +35,10 @@ AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administra
 Read the details [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#regamedll_cs).
 
 #### $\color{GreenYellow}{Installation\ Steps}$
-1. Download either [Dev Build](https://github.com/rehlds/ReGameDLL_CS/actions/workflows/build.yml) or [Release Build](https://github.com/rehlds/ReGameDLL_CS/releases) (not both).
+1. Download at [Release Build](https://github.com/rehlds/ReGameDLL_CS/releases).
 2. Inside the .zip file, go to `bin\win32` folder then place `cstrike` folder into your CS1.6 directory.
 3. For latest game version, you can use its built-in bot (ZBot) [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-zbot-for-cs-16) or CS:CZ Hostage AI [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-file#how-to-install-cscz-hostage-ai-for-cs-16)
+OPTIONAL: You can update to [Dev Build](https://github.com/rehlds/ReGameDLL_CS/actions/workflows/build.yml) for latest features/changes/fixes etc.
 
 ## $\color{BlueGreen}{ReAPI}$
 From what I can understand, ReAPI is a bridging module between ReGameDLL and AMX Mod X. It lets modder/developer to use ReGameDLL functions from AMX Mod X.
