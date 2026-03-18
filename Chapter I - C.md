@@ -10,11 +10,12 @@ Metamod is a plugin loader / manager originally created for games using the Gold
 > For latest build, download Metamod-R from [here](https://github.com/rehlds/Metamod-R/releases).
 
 2. Inside `cstrike` folder, create new folder and name it `addons`.
-3. Inside `addons` folder, create new folder again and name it `metamod`.
-4. Place `metamod.dll` into `metamod` folder you just created.
-5. Back to `cstrike` folder, open `liblist.gam` with any text editor.
-6. Find `gamedll` entry, then change its string to `"addons\metamod\metamod.dll"` (with quote).
-7. Save and close.
+   - Inside `addons` folder, create new folder again and name it `metamod`.
+   - Place `metamod.dll` into `metamod` folder you just created.
+2a. Or, place `addons` folder from the package to `cstrike` folder
+6. Back to `cstrike` folder, open `liblist.gam` with any text editor.
+7. Find `gamedll` entry, then change its string to `"addons\metamod\metamod.dll"` (with quote).
+8. Save and close.
 
 ## $\color{BlueGreen}{AMX\ Mod\ X}$
 AMX Mod X (often abbreviated AMXX) is a powerful scripting and server administration framework designed as a Metamod plugin for Half-Life 1 (GoldSrc engine) games, most famously Counter-Strike 1.6. It lets server admins and developers create custom plugins to add features like admin commands (kick/ban/slay/reservations), voting systems, anti-flood, stats tracking, weapon restrictions, custom game modes, bots, and much more—without touching the core game files.
