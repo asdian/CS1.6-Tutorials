@@ -94,7 +94,7 @@ My personal and first MetaHookSv plugin which aimed to be complementary of my CC
 > *Link might be expired as there will be more updates.
 
 ### $\color{ProcessBlue}{Precache\ Extended}$
-Precache Extended is a MetaHook Plugin to increase precache limit (you read it right) to around ~4096, the same thing with Client Precache but for newer game build. This plugin is made ***only*** for build 8684
+Precache Extended is a MetaHook Plugin to increase precache limit (you read it right) to around ~4096, the same thing with Client Precache but for newer game build. This plugin is made ***only*** for build 8684.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
 1. Download from [here](https://gamebanana.com/mods/660356)
