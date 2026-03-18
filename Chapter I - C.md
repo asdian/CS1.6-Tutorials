@@ -12,8 +12,9 @@ Metamod is a plugin loader / manager originally created for games using the Gold
 2. Inside `cstrike` folder, create new folder and name it `addons`.
    - Inside `addons` folder, create new folder again and name it `metamod`.
    - Place `metamod.dll` into `metamod` folder you just created.
+   
+   -> Or, place `addons` folder from the package to `cstrike` folder
 
-2a. Or, place `addons` folder from the package to `cstrike` folder
 3. Back to `cstrike` folder, open `liblist.gam` with any text editor.
 4. Find `gamedll` entry, then change its string to `"addons\metamod\metamod.dll"` (with quote).
 5. Save and close.
