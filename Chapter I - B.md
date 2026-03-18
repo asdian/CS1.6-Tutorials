@@ -56,6 +56,9 @@ Client Precache is a MetaHook Plugin to increase precache limit (you read it rig
 4. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
 
 ### $\color{ProcessBlue}{Metadrawer}$
+> [!NOTE]
+> Requires AMX Mod X.
+
 Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
 
 > [!CAUTION]
