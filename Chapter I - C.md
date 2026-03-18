@@ -9,7 +9,7 @@ Metamod is a plugin loader / manager originally created for games using the Gold
 > For build 3266, download Metamod-P from [here](https://github.com/Bots-United/metamod-p/releases).\
 > For latest build, download Metamod-R from [here](https://github.com/rehlds/Metamod-R/releases).
 
-2. Inside `cstrike` folder, create new folder and name it `addons`.
+2. -> Inside `cstrike` folder, create new folder and name it `addons`.
    - Inside `addons` folder, create new folder again and name it `metamod`.
    - Place `metamod.dll` into `metamod` folder you just created.
    
