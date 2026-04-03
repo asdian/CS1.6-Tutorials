@@ -23,7 +23,7 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 > [!NOTE]
 > If you're using the raw files from CSO you should be good, no need to follow this section.
 
-1. Make sure your custom v_model has `bodygroup`, under `hands` studio model name, and contains two hand model bodies. One male and one female.
+1. Make sure your custom v_model has `bodygroup` entry under `hands` studio model name, and contains two hand model bodies. One male and one female.
 
 ![Hand bodygroup example.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/bodygroup.png)
 
@@ -41,4 +41,4 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 
 ![Hand texture binding example.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hand_texture.png)
 
-5. That should be it. 
+5. That should be it. The hand texture should be applied automatically to your new v_model.
