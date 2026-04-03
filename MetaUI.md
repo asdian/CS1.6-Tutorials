@@ -26,8 +26,8 @@ For Hyeonrin, her hand textures are:
 - `buffclass25s5ct_femaleshort.tga`
 
 <p align="center">
-  <img src="https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hyeonrin_F_L.png" width="50%" />
-  <img src="https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hyeonrin_F_S.png" width="50%" /> 
+  <img src="https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hyeonrin_F_L.png" width="30%" />
+  <img src="https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hyeonrin_F_S.png" width="30%" /> 
 </p>
 
 <table>
