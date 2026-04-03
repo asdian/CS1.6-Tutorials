@@ -30,21 +30,20 @@ For Hyeonrin, her hand textures are:
   <img src="https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hyeonrin_F_S.png" width="40%" /> 
 </p>
 
-<table>
-<tr>
-<td width="50%">
-![Hyeonrin hand long](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hyeonrin_F_L.png)
-</td>
-<td width="50%">
-![Hyeonrin hand short](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hyeonrin_F_S.png)
-</td>
-</tr>
-</table>
-
 My MetaUI uses similar directory structure to find the hand textures: `cstrike/gfx/tattoo/`. Paste the hand textures there.
 
 #### 2. Prepare the v_model files
 Next, you need to prepare your custom v_models. Minimum requirements for your custom v_models are described below.
-1. 
+1. Make sure your custom v_model has `bodygroup`, under `hands` studio model name, and contains two hand model bodies.
+```
+$body studio "v_ref"
+$bodygroup hands
+{
+studio "male_hand"
+studio "female_hand"
+}
+```
+
+2. 
 
 If you're using the raw files from CSO you should be good.
