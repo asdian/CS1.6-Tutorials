@@ -34,16 +34,12 @@ My MetaUI uses similar directory structure to find the hand textures: `cstrike/g
 
 #### 2. Prepare the v_model files
 Next, you need to prepare your custom v_models. Minimum requirements for your custom v_models are described below.
-1. Make sure your custom v_model has `bodygroup`, under `hands` studio model name, and contains two hand model bodies.
-```
-$body studio "v_ref"
-$bodygroup hands
-{
-studio "male_hand"
-studio "female_hand"
-}
-```
+> [!NOTE]
+> If you're using the raw files from CSO you should be good, no need to follow this section.
 
-2. 
+1. Make sure your custom v_model has `bodygroup`, under `hands` studio model name, and contains two hand model bodies. One male and one female.
+![Hand bodygroup example.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hand_bodygroup.png)
 
-If you're using the raw files from CSO you should be good.
+2. Determine the hand types as you need. Please note that you have to be consistent with the hand types. If the male uses `malelong`, then the female must use `femalelong` as well. For `maleorg` it's optional, but for female counterparts use `femaleshort`*.
+
+*I might be wrong, if so please let me know.
