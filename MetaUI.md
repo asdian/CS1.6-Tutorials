@@ -23,7 +23,7 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 > [!NOTE]
 > If you're using the raw files from CSO you should be good, no need to follow this section.
 
-1. Make sure your custom v_model has `bodygroup` entry under `hands` studio model name, and contains two hand model bodies. One male and one female.
+1. Make sure your custom v_model has `bodygroup` entry under `hands` studio model name, and contains two hand model bodies. One male and one female. If it doesn't, modify the model first. (This guide is not about how to modify a v_model.)
 
 ![Hand bodygroup example.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/bodygroup.png)
 
@@ -44,3 +44,4 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 5. That should be it. The hand texture of every special player model should be applied dynamically to your new v_model when you're using it.
 
 ### $\color{BlueGreen}{B.\ Custom\ Weapon\ HUD\ Image}$
+Image demo:
