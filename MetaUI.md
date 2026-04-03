@@ -51,4 +51,6 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 - `#508506cso_girl_hand.bmp`
 - `#512512cso_girl_hand_long.bmp`
 
+4. Set the texture dimension inside the v_model to (4x1)
+
 ![Hand texture binding example.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hand_texture.png)
