@@ -41,4 +41,6 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 
 ![Hand texture binding example.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hand_texture.png)
 
-5. That should be it. The hand texture should be applied automatically to your new v_model.
+5. That should be it. The hand texture of every special player model should be applied dynamically to your new v_model when you're using it.
+
+### $\color{BlueGreen}{B.\ Custom\ Weapon\ HUD\ Image}$
