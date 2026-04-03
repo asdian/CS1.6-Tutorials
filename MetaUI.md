@@ -42,6 +42,7 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 ![Hand bodygroup example.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/bodygroup.png)
 
 2. Determine the hand types as you need. Please note that you have to be consistent with the hand types. If the male uses `malelong`, then the female must use `femalelong` as well. For `maleorg` it's optional, but for female counterparts use `femaleshort`*.
+
 *I might be wrong, if so please let me know.
 
 3. Bind the texture files
