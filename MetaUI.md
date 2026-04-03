@@ -28,10 +28,10 @@ For Hyeonrin, her hand textures are:
 <table>
 <tr>
 <td width="50%">
-The quick brown fox jumps over the lazy dog.
+![Hyeonrin hand long](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hyeonrin_F_L.png)
 </td>
 <td width="50%">
-The quick brown fox jumps over the lazy dog.
+![Hyeonrin hand short](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hyeonrin_F_S.png)
 </td>
 </tr>
 </table>
