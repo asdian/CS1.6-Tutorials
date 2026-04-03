@@ -19,9 +19,22 @@ For males, they're divided into 3 parts:
 
 Custom hand textures are usually stored in `(cstrike, dstrike, estrike, fstrike, common -if from .pak files-)/gfx/tattoo` directory.
 
+![Hand texture files.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hand_types.png)
+
 For Hyeonrin, her hand textures are:
 - `buffclass25s5ct_femalelong.tga`
 - `buffclass25s5ct_femaleshort.tga`
+
+<table>
+<tr>
+<td width="50%">
+The quick brown fox jumps over the lazy dog.
+</td>
+<td width="50%">
+The quick brown fox jumps over the lazy dog.
+</td>
+</tr>
+</table>
 
 My MetaUI uses similar directory structure to find the hand textures: `cstrike/gfx/tattoo/`. Paste the hand textures there.
 
