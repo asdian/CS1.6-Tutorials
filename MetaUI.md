@@ -5,6 +5,7 @@
 > [About MetaUI](https://github.com/asdian/CS1.6-Tutorials/blob/main/Chapter%20I%20-%20B.md#colorprocessbluemetaui-beta)
 
 ### $\color{BlueGreen}{A.\ Dynamic\ Hand\ Texture}$
+MetaUI has dynamic hand texture feature. It means that the available hand texture of the currently using player model will be applied to every supported v_model.
 
 #### 1. Determine the hand texture
 CSO uses external texture files for their hand textures using targa files (.tga), in 512x512 dimension and 8-bit indexed color range. They uses a slight different hand texture system between males and females. For females, they're divided into 2 parts:
@@ -16,14 +17,14 @@ For males, they're divided into 3 parts:
 - `<handtexture_name>_maleshort.tga`
 - `<handtexture_name>_maleorg.tga`
 
-My MetaUI is mimicking that system into regular CS1.6.
+MetaUI is mimicking that system into regular CS1.6.
 
 #### 2. Prepare the v_model files
 Next, you need to prepare your custom v_models. Minimum requirements for your custom v_models are described below.
 > [!NOTE]
 > If you're using the raw files from CSO you should be good, no need to follow this section.
 
-1. Make sure your custom v_model has `bodygroup` entry under `hands` studio model name, and contains two hand model bodies. One male and one female. If it doesn't, modify the model first. (This guide is not about how to modify a v_model.)
+1. Make sure your custom v_model has `bodygroup` entry under `hands` studio name, and contains two hand model bodies, one male and one female. If it doesn't, modify the model first. (This guide is not about how to modify a v_model.)
 
 ![Hand bodygroup example.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/bodygroup.png)
 
@@ -41,7 +42,9 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 
 ![Hand texture binding example.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/hand_texture.png)
 
-5. That should be it. The hand texture of every special player model should be applied dynamically to your new v_model when you're using it.
+5. That should be it. The hand texture should be applied dynamically to your v_model when you're using it.
 
 ### $\color{BlueGreen}{B.\ Custom\ Weapon\ HUD\ Image}$
-Image demo:
+Image demo: 
+
+![Weapon HUD image demo.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/weapon_HUD.png)
