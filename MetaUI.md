@@ -48,3 +48,58 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 Image demo: 
 
 ![Weapon HUD image demo.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MetaUI/weapon_HUD.png)
+
+The next feature is custom weapon HUD image. It means that you can set a custom weapon HUD image for each weapon just similar to CSO. Below is how to use it:
+
+1. Make sure you have complete AMX Mod X installed.
+2. Lookup at `metaui.inc`.
+// ============================================================
+// # Function: Register a custom weapon override on a client.
+//             Tells MetaUI to load sprites/weapon_<txt_name>.txt
+//             instead of the vanilla CS weapon txt when this weapon
+//             is active, and to use the supplied max values as the
+//             bar-fill denominators.
+//
+//             Call from fw_Item_Deploy_Post, BEFORE the CurWeapon
+//             message, once per deploy.  Cleared automatically on
+//             the client's ResetHUD (player death / round reset).
+//
+// # Param(s): (5)
+//   id         : target player slot (1-32)
+//   base_csw   : base CS weapon ID being substituted (e.g. CSW_DEAGLE)
+//   txt_name   : bare weapon name, e.g. "desperado"
+//                (client loads sprites/weapon_desperado.txt)
+//   max_clip   : clip capacity for the ammo bar fraction denominator
+//   max_bpammo : backpack ammo capacity for the bpammo bar fraction
+// ============================================================
+native metaui_set_custom_weapon(id, base_csw, const txt_name[], max_clip, max_bpammo)
+
+3. Use that function inside weapon deploy hook. For example:
+
+public fw_Item_Deploy_Post(id, weaponid)
+{
+    switch (weaponid)
+    {
+        case CSW_DEAGLE:
+        {
+            metaui_set_custom_weapon(id, weaponid, "desperado", 12, 12);
+        }
+    }
+}
+
+4. Prepare the weapon HUD image files. They should be in `sprites/` directory and named as `weapon_<txt_name>.txt`. For example, if you're using `chainmg` as the `txt_name`, then the file should be named as `weapon_chainmg.txt`. The content of the file should be like this:
+
+```txt
+5
+weapon		640	640hud241	0	90	170	45
+weapon_s		640	640hud241	0	135	170	45
+ammo		640   640hud7	72	72	24	24
+ammo2		640	640hud224	49	231	24	24
+kill			640 	640hud241	172	16	48	16
+```
+
+5. Also make sure the listed files are exists. In this case, they are: `640hud241.spr`, `640hud7.spr`, and `640hud224.spr`. If not, you should prepare them first.
+
+6. MetaUI also will automatically registers the weapon kill hud icon from the `kill` entry above. You don't need to register it manually to the `sprites/hud.txt`.
+
+7. That should be it. The weapon HUD image should be applied dynamically to your weapon when you're using it.
