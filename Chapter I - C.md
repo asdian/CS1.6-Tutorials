@@ -47,6 +47,7 @@ From what I can understand, ReAPI is a bridging module between ReGameDLL and AMX
 #### $\color{GreenYellow}{Installation\ Steps}$
 1. Download [release build](https://github.com/rehlds/ReAPI/releases).
 2. Open the .zip, and place `addons` folder to your `cstrike` folder.
+3. Go to `addons\amxmodx\configs\modules.ini` and write `reapi` there.
 
 *OPTIONAL: You can update to [Dev Build](https://github.com/rehlds/ReAPI/actions) for latest features/changes/fixes etc.
 
