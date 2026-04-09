@@ -45,8 +45,10 @@ Read the details [here](https://github.com/rehlds/ReGameDLL_CS?tab=readme-ov-fil
 From what I can understand, ReAPI is a bridging module between ReGameDLL and AMX Mod X. It lets modder/developer to use ReGameDLL functions from AMX Mod X.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
-1. Download either [dev build](https://github.com/rehlds/ReAPI/actions) or [release build](https://github.com/rehlds/ReAPI/releases).
+1. Download [release build](https://github.com/rehlds/ReAPI/releases).
 2. Open the .zip, and place `addons` folder to your `cstrike` folder.
+
+*OPTIONAL: You can update to [Dev Build](https://github.com/rehlds/ReAPI/actions) for latest features/changes/fixes etc.
 
 ***
 Now, run the game again. Play for few minutes or hours. Change maps, change team, change class, to test everything. Check the game console (by pressing tilde `~` icon, below `esc` button). If the output shows Metamod-r or Metamod-p (for build 3266) and ReGameDLL, then they have been successfully installed.
