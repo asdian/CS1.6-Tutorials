@@ -53,6 +53,7 @@ The next feature is custom weapon HUD image. It means that you can set a custom 
 
 1. Make sure you have complete AMX Mod X installed.
 2. Lookup at `metaui.inc`.
+
 // ============================================================
 // # Function: Register a custom weapon override on a client.
 //             Tells MetaUI to load sprites/weapon_<txt_name>.txt
