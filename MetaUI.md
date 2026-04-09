@@ -45,7 +45,7 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 5. That should be it. The hand texture should be applied dynamically to your v_model when you're using it.
 
 > [!TIP]
-> If you want a quick test, replace all the original v_models in `models/` directory with my custom v_models pack to see how it works. If replacing models doesn't work for some reason, create an AMX Mod X plugin or use external files method as described in [Resource Replacer](https://github.com/hzqst/MetaHookSv/blob/main/docs/ResourceReplacer.md) (we're mandatory to use MetaHookSv anyways).
+> If you want a quick test, replace all the original v_models in `models/` directory with my custom v_models pack to see how it works. If replacing models doesn't work for some reason, create and use an AMX Mod X plugin or use external files method as described in [Resource Replacer](https://github.com/hzqst/MetaHookSv/blob/main/docs/ResourceReplacer.md) (we're mandatory to use MetaHookSv anyways).
 
 ### $\color{BlueGreen}{B.\ Custom\ Weapon\ HUD\ Image}$
 Image demo: 
