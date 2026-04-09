@@ -79,16 +79,29 @@ native metaui_set_custom_weapon(id, base_csw, const txt_name[], max_clip, max_bp
 
 3. Use that function inside weapon deploy hook. For example:
 
-public fw_Item_Deploy_Post(id, weaponid)
+```txt
+
+public Ham_CWeapon_Deploy_Post(iWpn) 
 {
-    switch (weaponid)
-    {
-        case CSW_DEAGLE:
-        {
-            metaui_set_custom_weapon(id, weaponid, "desperado", 12, 12);
-        }
-    }
+	if (is_nullent(iWpn) || !Had_Weapon(iWpn, WEAPON_CODE))
+		return;
+
+	static id; id = get_member(iWpn, m_pPlayer);
+
+    set_entvar(id, var_viewmodel, V_CHAINMG);
+    set_entvar(id, var_weaponmodel, P_CHAINMG);
+
+    Stock_SendWeaponAnim(id, iWpn, 1);
+	
+	// Register the custom weapon override on the client BEFORE sending
+	// CurWeapon, so UpdateWeapon() finds the entry already in the map
+	// when it processes the incoming weapon-active message.
+	if(IsMetaUI_Enabled()) 
+		metaui_set_custom_weapon(id, CSW_CHAINMG, "chainmg", g_config_clip, g_config_bpammo)
+
+	//.. other codes
 }
+```
 
 4. Prepare the weapon HUD image files. They should be in `sprites/` directory and named as `weapon_<txt_name>.txt`. For example, if you're using `chainmg` as the `txt_name`, then the file should be named as `weapon_chainmg.txt`. The content of the file should be like this:
 
