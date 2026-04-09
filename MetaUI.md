@@ -54,6 +54,7 @@ The next feature is custom weapon HUD image. It means that you can set a custom 
 1. Make sure you have complete AMX Mod X installed.
 2. Lookup at `metaui.inc`.
 
+```txt
 // ============================================================
 // # Function: Register a custom weapon override on a client.
 //             Tells MetaUI to load sprites/weapon_<txt_name>.txt
@@ -74,6 +75,7 @@ The next feature is custom weapon HUD image. It means that you can set a custom 
 //   max_bpammo : backpack ammo capacity for the bpammo bar fraction
 // ============================================================
 native metaui_set_custom_weapon(id, base_csw, const txt_name[], max_clip, max_bpammo)
+```
 
 3. Use that function inside weapon deploy hook. For example:
 
