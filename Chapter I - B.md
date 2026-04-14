@@ -84,14 +84,12 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 My personal and first MetaHookSv plugin which aimed to be complementary of my CCX plugin of AMX Mod X. As of now, it gives HUD enhancements mimicking CSO/CSN:S. It's still in beta phase, please report for bug(s) if you found any.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
-1. Download from [here](https://t.me/dxcave/127)* (because it's still beta, I don't wanna store it at cloud storage just yet).
+1. Download from [here](https://gamebanana.com/mods/669466).
 2. Extract the files into `cstrike` folder.
 3. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
 4. Open `cstrike/sprites/hud.txt`.
 5. At the very top, change the number into a larger and reasonable number. (e.g. `512`)
 6. Find any `buyzone`, `flash_`, and `c4` entries, then change `640hud7` string of them to `null`.
-
-> *Link might be expired as there will be more updates.
 
 ### $\color{ProcessBlue}{Precache\ Extended}$
 Precache Extended is a MetaHook Plugin to increase precache limit (you read it right) to around ~4096, the same thing with Client Precache but for newer game build. This plugin is made ***only*** for build 8684.
