@@ -92,9 +92,7 @@ public Ham_CWeapon_Deploy_Post(iWpn)
 
     Stock_SendWeaponAnim(id, iWpn, 1);
 	
-	// Register the custom weapon override on the client BEFORE sending
-	// CurWeapon, so UpdateWeapon() finds the entry already in the map
-	// when it processes the incoming weapon-active message.
+	// Register the custom weapon override on the client.
 	metaui_set_custom_weapon(id, CSW_CHAINMG, "chainmg", g_config_clip, g_config_bpammo)
 
 	//.. other codes
