@@ -65,10 +65,6 @@ The next feature is custom weapon HUD image. It means that you can set a custom 
 //             is active, and to use the supplied max values as the
 //             bar-fill denominators.
 //
-//             Call from fw_Item_Deploy_Post, BEFORE the CurWeapon
-//             message, once per deploy.  Cleared automatically on
-//             the client's ResetHUD (player death / round reset).
-//
 // # Param(s): (5)
 //   id         : target player slot (1-32)
 //   base_csw   : base CS weapon ID being substituted (e.g. CSW_DEAGLE)
