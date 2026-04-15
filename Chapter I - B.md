@@ -77,7 +77,7 @@ Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX 
 > [!TIP]
 > Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same features. But don't mix them unless you're know what you're doing.
 
-### $\color{ProcessBlue}{MetaUI\ BETA}$
+### $\color{ProcessBlue}{MetaUI}$
 > [!NOTE]
 > Requires AMX Mod X.
 
@@ -90,6 +90,7 @@ My personal and first MetaHookSv plugin which aimed to be complementary of my CC
 4. Open `cstrike/sprites/hud.txt`.
 5. At the very top, change the number into a larger and reasonable number. (e.g. `512`)
 6. Find any `buyzone`, `flash_`, and `c4` entries, then change `640hud7` string of them to `null`.
+7. Compile `MetaUI_AddonPlugin.sma`, place the compiled file `MetaUI_AddonPlugin.amxx` into `plugins` folder, and write `MetaUI_AddonPlugin.amxx` into `configs/plugins.ini`.
 
 ### $\color{ProcessBlue}{Precache\ Extended}$
 Precache Extended is a MetaHook Plugin to increase precache limit (you read it right) to around ~4096, the same thing with Client Precache but for newer game build. This plugin is made ***only*** for build 8684.
