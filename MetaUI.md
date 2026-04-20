@@ -31,9 +31,9 @@ Next, you need to prepare your custom v_models. Minimum requirements for your cu
 2. Determine the hand types as you need. Please note that you have to be consistent with the hand types. If the male uses `malelong`, then the female must use `femalelong` as well. For `maleorg` it's optional, but for female counterparts use `femaleshort` (I might be wrong, if so please let me know).
 
 3. Bind the texture files using one of these specific names:
-- `#256256hand.bmp` 
-- `#256252hand.bmp` 
-- `#512512cso_highq_hand__long_512.bmp`
+- `#256256hand.bmp` (for MALE)
+- `#256252hand.bmp` (for MALE)
+- `#512512cso_highq_hand__long_512.bmp` (for MALE)
 - `#512512cso_girl_hand.bmp`
 - `#508506cso_girl_hand.bmp`
 - `#512512cso_girl_hand_long.bmp`
