@@ -18,7 +18,7 @@ A RAW file (uncompiled) before `.amxx` is in `.sma` file. We need a software to 
 There are two softwares that I use for AMX Mod X scripting.
 
 #### $\color{GreenYellow}{Easy\ Method}$
-> [Take me to Advanced method](#colorcyanadvanced-method)$\color{GreenYellow}{}$
+> [Take me to Advanced method](#colorgreenyellowadvanced-method)$\color{GreenYellow}{}$
 
 The easy method is using AMX Mod X Studio. A lightweight software for AMX Mod X scripting.
 
