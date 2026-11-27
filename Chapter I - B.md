@@ -8,7 +8,7 @@
 #### $\color{GreenYellow}{Introduction}$
 MetaHook is an addon for Goldsrc-based games to give extensive functionality (like ReHLDS and such). It works by using a special launcher that renames itself to match the game's executable, such as cstrike.exe, then loads the real game while injecting its own DLL early in the process. This DLL hooks into the engine's core functions, like rendering and input, using techniques such as inline patches and virtual table replacements. Once hooked, MetaHook loads plugins from a folder as DLL files, allowing them to add features like custom HUDs, improved lighting, shaders, and modern graphics effects. Because of that, MetaHook is heavily dependent with newer OpenGL and DirectX system, with moderate system specification (just to be safe). Unfortunately as I wrote this guide, MetaHook is for Windows only, which is have its specific requirements to be used for multiplayer/online mode (don't ask me how, I don't know either).
 
-Very first MetaHook version is just "MetaHook" developed by Nagist. There's also "MetaHook Plus" version, I assume it's Nagist's fork for CS:BTE family of games. And finally, the latest and actively maintained version is "MetaHookSv" developed by hzqst, which is the one I'm using. It's originally developed for Svencoop, but it can be used for CS1.6 as well. MetaHookSv comes with its own set of plugins. [(list)](https://github.com/hzqst/MetaHookSv?tab=readme-ov-file#plugins)
+Very first MetaHook version is just "MetaHook" developed by Nagist. There's also "MetaHook Plus" version, I assume it's Nagist's fork for CS:BTE family of games. And finally, the latest and actively maintained version is "MetaHookSv" developed by hzqst, which is the one I'm using. It's originally developed for Svencoop, but it can be used for CS1.6 as well. MetaHookSv comes with its own set of plugins. [(list)](https://github.com/MetaHookSv/MetaHookSv#plugins)
 
 #### $\color{GreenYellow}{System\ Requirements}$
 - Read more [Here](https://github.com/hzqst/MetaHookSv/blob/main/docs/Renderer.md#gpu-requirement).
@@ -81,6 +81,8 @@ Client Xtended is a MetaHook Plugin to increase precache limit (you read it righ
 2. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
 3. Open cstrike\delta.lst with any text editor.
 4. Find every parameter that contains modelindex, viewmodel, weaponmodel, then change the value from 10 to 16, and save it.
+
+Other known third party plugins are listed [here](https://github.com/MetaHookSv/MetaHookSv#plugins), under `(third-party)` tag.
 
 :globe_with_meridians: [Telegram Channel](https://t.me/dxcave)\
 :speech_balloon: [Telegram Chat Group](https://t.me/dxcave_chat)
