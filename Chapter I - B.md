@@ -28,6 +28,9 @@ If you're using the Steam version, it should detect automatically like this:
 If you're using NoSteam version, just navigate to your game folder. Write Steam AppId to `10` and Mod Path to `cstrike` like so:
 ![MetaHookSv Installation for NoSteam version.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MHSV-Installer/Install_NoSteam.png)
 
+5. After that, just click `install`. A green popup should appear if nothing goes wrong.
+![Installation success.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MHSV-Installer/Install_Success.png)
+
 8. Inside the game, press tilde `~` symbol on your keyboard, then type _`mh_pluginlist`_. If the output matches what's shown in the image below (or something similar), the MetaHook is successfully installed.
 
 ![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-mh.png)
