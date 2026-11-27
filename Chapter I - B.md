@@ -20,11 +20,11 @@ Very first MetaHook version is just "MetaHook" developed by Nagist. There's also
 > Avoid using spaces for name of that new folder, just in case something quirk happens.
 3. Run the `MetahookInstaller.exe`.
 4a. If you're using the Steam version, it should detect automatically like this:
-![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/Install_Steam.png)
+![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MHSV-Installer/Install_Steam.png)
 
 8. Inside the game, press tilde `~` symbol on your keyboard, then type _`mh_pluginlist`_. If the output matches what's shown in the image below (or something similar), the MetaHook is successfully installed.
 
-![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MHSV-Installer/status-mh.png)
+![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-mh.png)
 
 ## $\color{BlueGreen}{Third\ Party\ Plugins}$ 
 The plugins listed here are the plugins I have tried and used. When you have done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md).
