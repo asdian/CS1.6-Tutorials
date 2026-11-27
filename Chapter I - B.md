@@ -73,7 +73,7 @@ My personal and first MetaHookSv plugin which aimed to be complementary of my CC
 7. Compile `MetaUI_AddonPlugin.sma`, place the compiled file `MetaUI_AddonPlugin.amxx` into `plugins` folder, and write `MetaUI_AddonPlugin.amxx` into `configs/plugins.ini`. [Compiling Tutorial: [Local](https://forums.alliedmods.net/showthread.php?t=130511) or [Online](https://gamebanana.com/tuts/19340)]
 
 ### $\color{ProcessBlue}{Client\ Extended}$
-Precache Extended is a MetaHook Plugin to increase precache limit (you read it right) to around ~4096, and some quality improvements mimicking CSO. This plugin is made ***only*** for build 8684. Full feature list soon.
+Client Extended is a MetaHook Plugin to increase precache limit (you read it right) to around ~4096, and some quality improvements mimicking CSO. This plugin is made ***only*** for build 8684. Full feature list soon.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
 1. Download from [here](https://gamebanana.com/mods/660356)
