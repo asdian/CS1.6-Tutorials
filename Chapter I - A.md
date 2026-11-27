@@ -9,8 +9,8 @@
 #### $\color{GreenYellow}{Setting\ Up\ the\ Base\ Game}$
 Choose between build 3266 or Latest version.
 
-## $\color{Cyan}{[Build\ 3266]}$ 
-1. Download CS1.6 build 3266 from [here](https://archive.org/details/counter-strike-1.6_202106). (Why 3266? You will find it later)
+## $\color{Cyan}{[Build\ 3266\ or\ 8684\ (Steam/NoSteam)]}$ 
+1. Download CS1.6 NoSteam build 3266 or 8684 from [here](https://csumods.blogspot.com/2023/05/counter-strike-16-no-steam-metahook.html), or buy the [Steam](https://store.steampowered.com/app/10/CounterStrike/) version (make sure to choose steam_legacy to get 8684 build).
 2. Install it to your desired folder.
 3. Play for few minutes or hours to make sure. Also try to change maps, change teams, change classes, etc.
 

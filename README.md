@@ -1,4 +1,6 @@
 # CS1.6 Tutorials
+## <strong>Updated on 20261127</strong>
+
 Tutorials related to CS1.6 and its modding stuffs.
 
 ## Chapter I: Working Space

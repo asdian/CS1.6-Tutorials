@@ -14,19 +14,17 @@ Very first MetaHook version is just "MetaHook" developed by Nagist. There's also
 - Read more [Here](https://github.com/hzqst/MetaHookSv/blob/main/docs/Renderer.md#gpu-requirement).
 
 #### $\color{GreenYellow}{Installation\ Steps}$
-1. Download MetaHookSv from [here](https://github.com/hzqst/MetaHookSv/releases). 
-> [!IMPORTANT]
-> - For 3266 game build, <ins>choose blob.</ins> 
+1. Download MetaHookSv from [here](https://github.com/MetaHookSv/MetaHookSv/releases). 
+2. Extract the package into a new, blank/separate folder.
+> [!TIP]
+> Avoid using spaces for name of that new folder, just in case something quirk happens.
+3. Run the `MetahookInstaller.exe`.
+4a. If you're using the Steam version, it should detect automatically like this:
+![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/Install_Steam.png)
 
-2. Copy `cstrike_hd`, `echoes`, `gearbox`, `platform`, `MetaHook.exe` or `Metahook_blob.exe`, `SDL2.dll`, and `SDL3.dll` into your installed CS1.6 folder.
-3. Open `svencoop` folder and copy everything into `cstrike` folder.
-4. Back to your installed CS1.6 folder, rename the original `cstrike.exe` to something else if exist (as a backup).
-5. Rename <ins>`MetaHook.exe`(latest CS)</ins> or <ins>`Metahook_blob.exe`(for 3266)</ins> to `cstrike.exe`
-6. Go to `cstrike\metahook\configs` folder, delete `plugins_svencoop.lst` and rename `plugins_goldsrc.lst` to `plugins.lst`.
-7. Run and play your CS1.6 from `cstrike.exe`, play with built-in/addon bots if any, make sure eveything runs fine, no crash. If you're facing crashes and other, might be your installment/system issue.
 8. Inside the game, press tilde `~` symbol on your keyboard, then type _`mh_pluginlist`_. If the output matches what's shown in the image below (or something similar), the MetaHook is successfully installed.
 
-![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-mh.png)
+![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MHSV-Installer/status-mh.png)
 
 ## $\color{BlueGreen}{Third\ Party\ Plugins}$ 
 The plugins listed here are the plugins I have tried and used. When you have done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md).
