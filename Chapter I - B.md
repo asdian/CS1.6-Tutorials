@@ -31,6 +31,9 @@ If you're using NoSteam version, just navigate to your game folder. Write Steam 
 5. After that, just click `install`. A green popup should appear if nothing goes wrong.
 ![Installation success.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MHSV-Installer/Install_Success.png)
 
+6. Back to the MetaHookSv Installer extracted folder, there should be a new shortcut showed. In this case is for NoSteam, but it shound named after the "Game" you choose earlier.
+![New shortcut.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MHSV-Installer/NewShortcut.png)
+
 8. Inside the game, press tilde `~` symbol on your keyboard, then type _`mh_pluginlist`_. If the output matches what's shown in the image below (or something similar), the MetaHook is successfully installed.
 
 ![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-mh.png)
