@@ -39,6 +39,7 @@ If you're using NoSteam version, just navigate to your game folder. Write Steam 
 8. Inside the game, press tilde `~` symbol on your keyboard, then type _`mh_pluginlist`_. If the output matches what's shown in the image below (or something similar), the MetaHook is successfully installed.
 
 ![List of installed MetaHook Plugins.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/BaseGame/status-mh-new.png)
+9. [OPTIONAL] Delete the `metahook` folder at `cstrike\addons\` to avoid confusion.
 
 ## $\color{BlueGreen}{Third\ Party\ Plugins}$ 
 The plugins listed here are the plugins I have tried and used. When you have done installing third-party plugins, continue to [AMX Mod X installation](Chapter%20I%20-%20C.md).
@@ -55,40 +56,7 @@ MetaHook plugin installation is generally the same.
 5. Read any additional info/steps if there's any.
 6. Start the game and make sure the new MetaHook plugin is listed after you're typing _`mh_pluginlist`_.
 
-### $\color{ProcessBlue}{Client\ Precache\ (build\ 3266\ only)}$
-Client Precache is a MetaHook Plugin to increase precache limit (you read it right) to around ~1024. I'm not quite sure how it works since it's closed source. Unfortunately this plugin is made ***only*** for build 3266. Since it's an old, closed-source plugin, people can't make updates for it. Hence, a specific MetaHookSv version and CS build is required.
-
-> [!WARNING]
-> The latest MetaHookSv version that supports this plugin is [v20250225b](https://github.com/hzqst/MetaHookSv/releases/tag/v20250225b). If you have already installed a newer version, please roll back to v20250225b to avoid issues.
-
-#### $\color{GreenYellow}{Installation\ Steps}$
-1. Download from [here](https://www.mediafire.com/file/nh8ui1ht070k96u/MH_Precache.rar/file)
-2. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
-3. Open `cstrike\delta.lst` with any text editor.
-4. Find every parameter that contains `modelindex`, `viewmodel`, `weaponmodel`, then change the value from `10` to `16`, and save it.
-
-### $\color{ProcessBlue}{Metadrawer}$
-> [!NOTE]
-> Requires AMX Mod X.
-
-Metadrawer is a MetaHook Plugin to give extensive functionality that normal AMX Mod X can't do, such as drawing image in-game.
-
-> [!CAUTION]
-> As of (2026/02/27) any of these plugins under this point are <ins>NOT</ins> compatible with latest release of MetaHookSv's first party plugins. You have to clear `plugins.lst` first. I'm not sure which plugins that causes the crash. If you're using v20250225b version, it still can run fine. No need to clear `plugins.lst` first.
-
-#### $\color{GreenYellow}{Installation\ Steps}$
-0. Requires full [AMX Mod X installation](Chapter%20I%20-%20C.md).
-1. Download from [here](https://gamebanana.com/mods/39420).
-2. Place `binkw32.dll` and `cstrike` folder into your installed CS1.6 folder. 
-> [!WARNING]
-> Metadrawer package will replace `plugins.lst` with its own file if you place the entire `cstrike` folder, unless you want to do it manually.
-3. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
-4. Go to cstrike folder, create a file named _`userconfig.cfg`_ (a must, can't use random naming). Not a .txt file, make sure you have done that properly.
-5. Write this command: _`md_newmenu "0"`_ inside and save it.
-
-> [!TIP]
-> Alternatively, you can use [MetaInvoker](https://csumods.blogspot.com/2026/01/cs16-plugin-metahook-metainvoker-03.html) which provides around the same features. But don't mix them unless you're know what you're doing.
-
+Below, I will share my MetaHookSv plugins for Counter-Strike 1.6 only.
 ### $\color{ProcessBlue}{MetaUI}$
 > [!NOTE]
 > Requires AMX Mod X.
@@ -104,12 +72,14 @@ My personal and first MetaHookSv plugin which aimed to be complementary of my CC
 6. Find any `buyzone`, `flash_`, and `c4` entries, then change `640hud7` string of them to `null`.
 7. Compile `MetaUI_AddonPlugin.sma`, place the compiled file `MetaUI_AddonPlugin.amxx` into `plugins` folder, and write `MetaUI_AddonPlugin.amxx` into `configs/plugins.ini`. [Compiling Tutorial: [Local](https://forums.alliedmods.net/showthread.php?t=130511) or [Online](https://gamebanana.com/tuts/19340)]
 
-### $\color{ProcessBlue}{Precache\ Extended}$
-Precache Extended is a MetaHook Plugin to increase precache limit (you read it right) to around ~4096, the same thing with Client Precache but for newer game build. This plugin is made ***only*** for build 8684.
+### $\color{ProcessBlue}{Client\ Extended}$
+Precache Extended is a MetaHook Plugin to increase precache limit (you read it right) to around ~4096, and some quality improvements mimicking CSO. This plugin is made ***only*** for build 8684. Full feature list soon.
 
 #### $\color{GreenYellow}{Installation\ Steps}$
 1. Download from [here](https://gamebanana.com/mods/660356)
-2. Installation is the same with Client Precache.
+2. Install as written on the [general](#colorgreenyellowgeneral-installation) guide.
+3. Open cstrike\delta.lst with any text editor.
+4. Find every parameter that contains modelindex, viewmodel, weaponmodel, then change the value from 10 to 16, and save it.
 
 :globe_with_meridians: [Telegram Channel](https://t.me/dxcave)\
 :speech_balloon: [Telegram Chat Group](https://t.me/dxcave_chat)
