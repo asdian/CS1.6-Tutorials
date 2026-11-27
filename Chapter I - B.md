@@ -19,9 +19,12 @@ Very first MetaHook version is just "MetaHook" developed by Nagist. There's also
 > [!TIP]
 > Avoid using spaces for name of that new folder, just in case something quirk happens.
 3. Run the `MetahookInstaller.exe`.
-4. If you're using the Steam version, it should detect automatically like this:
+4. Slightly different methods between to variants.
+### Steam
+If you're using the Steam version, it should detect automatically like this:
 ![MetaHookSv Installation for Steam version.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MHSV-Installer/Install_Steam.png)
 
+### NoSteam
 If you're using NoSteam version, just navigate to your game folder. Write Steam AppId to `10` and Mod Path to `cstrike` like so:
 ![MetaHookSv Installation for NoSteam version.](https://github.com/asdian/CS1.6-Tutorials/blob/main/Pics/MHSV-Installer/Install_NoSteam.png)
 
